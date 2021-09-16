@@ -1,3 +1,6 @@
+// const { i18n } = require("./next-i18next.config");
+
 module.exports = {
-  reactStrictMode: true,
+	devtool: "source-map",
+	// i18n,
 }

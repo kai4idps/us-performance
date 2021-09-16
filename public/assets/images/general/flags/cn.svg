@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="40" height="26">
+
+<g transform="matrix(0.7547171 0 0 0.7428572 0 0)">
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M0 0L40 0L40 25.41797L0 25.41797L0 0z" stroke="none" fill="#EE1C25" fill-rule="nonzero" />
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M6.667969 2.542969L9.019531 9.441406L2.863281 5.179688L10.47266 5.179688L4.316406 9.441406L6.667969 2.542969z" stroke="none" fill="#FFFF00" fill-rule="nonzero" />
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M13.85547 1.375L13.63281 3.78125L12.32813 1.707031L14.66016 2.65625L12.19141 3.195312L13.85547 1.375z" stroke="none" fill="#FFFF00" fill-rule="nonzero" />
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M16.95703 4.199219L15.76953 6.335938L15.41406 3.941406L17.17969 5.679688L14.67969 5.261719L16.95703 4.199219z" stroke="none" fill="#FFFF00" fill-rule="nonzero" />
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M17.25391 8.460938L15.25391 9.953125L15.95313 7.625L16.82031 9.894531L14.71875 8.542969L17.25391 8.460938z" stroke="none" fill="#FFFF00" fill-rule="nonzero" />
+	<g transform="matrix(1.325 0 0 1.346154 0 0)">
+	</g>
+    <path transform="matrix(1.325 0 0 1.346154 0 0)"  d="M13.80469 10.25L13.6875 12.66406L12.29297 10.64453L14.66406 11.49609L12.21875 12.13281L13.80469 10.25z" stroke="none" fill="#FFFF00" fill-rule="nonzero" />
+</g>
+</svg>
