@@ -1,3 +1,1326 @@
 {
-    "test":"teswwt"
+    "common": {
+        "external": {
+            "support": "Support"
+        },
+        "shop_now": "Shop Now",
+        "buy_now": "Buy Now",
+        "learn_more": "Learn More",
+        "choose_plan": "Choose Plan",
+        "read_more": "Read More",
+        "subscribe_now": "Subscribe Now",
+        "add_to_cart": "Add to Cart",
+        "banner": "Free 2-Day Shipping & 1-Year Warranty",
+        "save_lives_story": {
+            "title": {
+                "furbo": "Furbo's",
+                "save_dogs_from": "Save Dogs from"
+            }
+        },
+        "smart_alert": {
+            "alert_list": {
+                "0": {
+                    "alt": "dog-barking-alert-icon",
+                    "text": "Dog Barking Alert"
+                },
+                "1": {
+                    "alt": "dog-activity-alert-icon",
+                    "text": "Dog Activity Alert"
+                },
+                "2": {
+                    "alt": "dog-selfie-alert-icon",
+                    "text": "Dog Selfie Alert"
+                },
+                "3": {
+                    "alt": "home-emergency-alert-icon",
+                    "text": "Home Emergency Alert"
+                },
+                "4": {
+                    "alt": "person-alert-icon",
+                    "text": "Person Alert"
+                }
+            }
+        },
+        "ok": "OK"
+    },
+    "blogs": {
+        "page_name": "Blog",
+        "doc_title": "Furbo Blog | Useful Tips, Trending Dogs News, & Funny Pups Videos | Furbo Dog Camera",
+        "doc_description": "",
+        "subscription": {
+            "title": "Never Miss Out!",
+            "description": "Subscribe to our newsletter to know more about how to bring joy to your dog.",
+            "subscribe": "SUBSCRIBE",
+            "spam_notice": "We will never spam you."
+        },
+        "topic": "Topic",
+        "latest_post": "Latest Post",
+        "meta_title": " ",
+        "meta_description": "Read more about Furbo and our global community. Learn how to keep your pup healthy and safe. Find info on training, vets, or breeds. Get the funniest and trending dog news."
+    },
+    "brand_story": {
+        "page_name": "Our Story",
+        "doc_title": "Furbo Dog Camera Brand Story | Learn About Furbo | Furbo Dog Camera",
+        "doc_description": "",
+        "key_visual": {
+            "title": "Share more love and moments together."
+        },
+        "our_story": {
+            "text1": "Every morning when we leave home for work, our dog would give us those sad puppy eyes that break our heart as we shut the door behind us. It feels awful, but we simply don’t have any other choice.",
+            "text2": "We started talking to more dog parents and discovered that they had this same pain of leaving their dogs at home alone. They shared their stories with us about how they couldn’t bear to be apart from their dogs for too long, and they even skipped vacations because they couldn’t bring their dogs along.",
+            "text3": "One dog parent’s comment really struck us:",
+            "quote": "“Dogs spend most of their lives waiting for us at home.”",
+            "text4": "We’re always apart from our furbabies, but all we ever wanted is to always be together. That’s why we set out on a mission to create a simple way for us to always be together with our dogs."
+        },
+        "timeline": {
+            "slide": {
+                "0": {
+                    "alt": "brand-story-timeline-1",
+                    "text": "JUNE 2014: The Furbo idea is born.\n\nJULY 2014: Concept testing & market research.\n\nDECEMBER 2014: First 3D-printed prototype."
+                },
+                "1": {
+                    "alt": "brand-story-timeline-2",
+                    "text": "MARCH 2015: Toss treats instead of drop treats because users say “it’s more fun.”\n\nAPRIL 2015: Night vision is important because “sometimes we have to work late.”\n\nSEPTEMBER 2015: Added barking alert so we know when our furbaby needs attention.\n\nOCTOBER 2015: Finished interview with 500 users."
+                },
+                "2": {
+                    "alt": "brand-story-timeline-3",
+                    "text": "APRIL 2016: The world meets Furbo Dog Camera.\n\nJUNE 2016: The most successful pet tech project on crowdfunding ($510,000+ USD funds raised).\n\nSEPTEMBER 2016: Available in 5 countries. (US, UK, CA, JP, & TW).\n\nDECEMBER 2016: #1 best selling pet camera on Amazon."
+                }
+            }
+        },
+        "meta_title": " ",
+        "meta_description": "Read more about Furbo and our global community. Learn how to keep your pup healthy and safe. Find info on training, vets, or breeds. Get the funniest and trending dog news."
+    },
+    "cart": {
+        "page_name": "Cart",
+        "doc_title": "Your Shopping Cart | Furbo Dog Camera",
+        "doc_description": "",
+        "title": "Your Shopping Cart",
+        "excluding_tax": "EXCLUDING TAX",
+        "quantity": "Quantity",
+        "checkout": "Checkout",
+        "meta_title": "Your Shopping Cart | Furbo Dog Camera",
+        "meta_description": " "
+    },
+    "faas_checkout": {
+        "page_name": "Faas Checkout",
+        "doc_title": "Choose Your Furbo Nanny Cam Bundle | Furbo Dog Camera",
+        "doc_description": "",
+        "meta_title": " ",
+        "meta_description": " ",
+        "choose_plan": {
+            "service": {
+                "0": {
+                    "text": "Free 2-Day Shipping",
+                    "alt": "free-two-days-shipping"
+                },
+                "1": {
+                    "text": "Cancel Anytime After 3 Months",
+                    "alt": "cancel-anytime"
+                },
+                "2": {
+                    "text": "Lifetime Warranty",
+                    "alt": "lifetime-warranty"
+                }
+            },
+            "title": "Choose Your Furbo Bundle Plan",
+            "subtitle1": "Includes Furbo Dog Camera",
+            "subtitle2": "+ Furbo Dog Nanny Subscription",
+            "alt": "choose-plan-kv",
+            "monthly_plan_text": "Monthly Plan $9.99",
+            "annually_plan_text": "Annual Plan $99",
+            "save_20": "Save $20!",
+            "best_deal": "BEST DEAL"
+        },
+        "checkout_form": {
+            "empty_hint": {
+                "number": "Credit card number is required.",
+                "expiry": "Expiration date is required",
+                "cvc": "Security code is required",
+                "country": "Please select country",
+                "zip_code": "Please enter ZIP code number"
+            },
+            "invalid_hint": {
+                "number": "Please enter a valid credit card number.",
+                "expiry": "Expiration date is invalid",
+                "cvc": "Security code is invalid",
+                "country": "Please select country",
+                "zip_code": "ZIP code number is invalid"
+            }
+        },
+        "error_dialog": {
+            "payment_failed": "Payment Failed!"
+        },
+        "help_dialog": {
+            "title": "CVC",
+            "description": "A three-digit code on your credit card, you can ind this on the back of your card.",
+            "alt": "cvc-helper"
+        },
+        "payment": {
+            "title": "Payment Method",
+            "key_visual_alt": "choose-plan-kv",
+            "payment_alt": "payment",
+            "review_title": "Review Your Plan",
+            "review_subtitle": "Furbo Dog Camera + Unlimited Furbo Dog Nanny Features",
+            "subtotal": "Subtotal",
+            "tax": "Tax",
+            "total": "Total",
+            "complete_checkout": "Complete Checkout"
+        },
+        "shipping": {
+            "title": "Shipping Information",
+            "alt": "choose-plan-kv",
+            "first_name": {
+                "label": "First Name",
+                "empty_message": "Please Enter First Name",
+                "invalid_message": "Please Enter First Name"
+            },
+            "last_name": {
+                "label": "Last Name",
+                "empty_message": "Please Enter Last Name",
+                "invalid_message": "Please Enter Last Name"
+            },
+            "email": {
+                "label": "Email",
+                "empty_message": "Please Enter Email",
+                "invalid_message": "Please Enter a Valid Email"
+            },
+            "phone_number": {
+                "label": "Phone Number",
+                "empty_message": "Please Enter Your Phone Number",
+                "invalid_message": "Please Enter Your Phone Number"
+            },
+            "address1": {
+                "label": "Address (We do not ship to P.O. boxes)",
+                "empty_message": "Please Enter Your Address",
+                "invalid_message": "Please Enter Your Address"
+            },
+            "address2": {
+                "label": "Apartment, suite, etc (Optional)",
+                "empty_message": " ",
+                "invalid_message": " "
+            },
+            "country": {
+                "label": "Country",
+                "empty_message": "Please Select Country",
+                "invalid_message": "Please Select Country"
+            },
+            "city": {
+                "label": "City",
+                "empty_message": "Please Enter Your City Name",
+                "invalid_message": "Please Enter Your City Name"
+            },
+            "country_state": {
+                "label": "State",
+                "empty_message": "Please Select State",
+                "invalid_message": "Please Select State"
+            },
+            "zip_code": {
+                "label": "ZIP Code",
+                "empty_message": "Please Enter a ZIP / Postal Code",
+                "invalid_message": "Please Enter a Valid ZIP / Postal Code"
+            }
+        }
+    },
+    "designed_for_dogs": {
+        "page_name": "Designed for Dogs",
+        "doc_title": "Designed for Dogs | Furbo Dog Camera",
+        "doc_description": "",
+        "key_visual": {
+            "title": "Every element of Furbo is designed for dogs"
+        },
+        "meta_title": " ",
+        "meta_description": " "
+    },
+    "faas_landings": {
+        "page_name": "Nanny Cam Bundle",
+        "doc_title": "Treat-Tossing Dog Camera & 2 Way Audio | Free Shipping | Furbo Dog Camera ",
+        "doc_description": "",
+        "key_visual": {
+            "title": "Introducing",
+            "subtitle": "Furbo Nanny Cam Bundle",
+            "content": "Low monthly price of $9.99 for a Furbo Dog Camera and unlimited Furbo Dog Nanny features"
+        },
+        "comparison": {
+            "add_on_text": "Optional add-on subscription for $6.99 / month",
+            "row": {
+                "0": {
+                    "title": "1080p Full HD, 2-Way Audio, Treat Toss",
+                    "subtitle": " ",
+                    "alt": "furbo-toss-treat-icon"
+                },
+                "1": {
+                    "title": "Dog Barking Alert",
+                    "subtitle": " ",
+                    "alt": "barking-alert-icon"
+                },
+                "2": {
+                    "title": "Dog Crying Alert",
+                    "subtitle": " ",
+                    "alt": "crying-alert-icon"
+                },
+                "3": {
+                    "title": "Dog Howling Alert",
+                    "subtitle": " ",
+                    "alt": "howling-alert-icon"
+                },
+                "4": {
+                    "title": "Continuous Barking Alert",
+                    "subtitle": " ",
+                    "alt": "continuous-barking-alert-icon"
+                },
+                "5": {
+                    "title": "Home Emergency Alert",
+                    "subtitle": "(Detects your smoke and carbon monoxide alarms)",
+                    "alt": "home-emergency-alert-icon"
+                },
+                "6": {
+                    "title": "Dog Activity Alert",
+                    "subtitle": " ",
+                    "alt": "activity-alert-icon"
+                },
+                "7": {
+                    "title": "Dog Selfie Alert",
+                    "subtitle": " ",
+                    "alt": "selfie-alert-icon"
+                },
+                "8": {
+                    "title": "Person Alert",
+                    "subtitle": " ",
+                    "alt": "person-alert-icon"
+                },
+                "9": {
+                    "title": "Cloud Recording",
+                    "subtitle": "(15-sec video clips)",
+                    "alt": "cloud-recording-icon"
+                },
+                "10": {
+                    "title": "Doggie Diary",
+                    "subtitle": "(Video highlight of your dog’s day)",
+                    "alt": "doggie-diary-icon"
+                },
+                "11": {
+                    "title": "New Features Coming Soon!",
+                    "subtitle": "(Vomit Alert, Choking Alert, Glass Breaking Alert and more)",
+                    "alt": "new-features-icon"
+                },
+                "12": {
+                    "title": "Hardware Lifetime Warranty",
+                    "subtitle": " ",
+                    "alt": "hardware-lifetime-warranty-icon"
+                },
+                "13": {
+                    "title": "Sponsor a Shelter Dog Every Month",
+                    "subtitle": " ",
+                    "alt": "sponsor-icon"
+                }
+            },
+            "column": {
+                "0": {
+                    "alt": "furbo-nanny-cam-bundle",
+                    "title": "Furbo Nanny Cam Bundle",
+                    "price": "$9.99/month",
+                    "content": "Camera + unlimited Furbo Dog Nanny features"
+                },
+                "1": {
+                    "alt": "basic-furbo-dog-camera",
+                    "title": "Basic Furbo Dog Camera",
+                    "price": "$133.99",
+                    "content": "+$6.99/month Optional Furbo Dog Nanny subscription"
+                }
+            }
+        },
+        "smart_alert": {
+            "alt": "Furbo Dog Nanny Icon",
+            "topic": "Furbo Dog Nanny",
+            "title": "Keep your dog safe with real-time Smart Alerts",
+            "subtitle": "Unlike other cameras that send you general motionand sound alerts, Furbo only notifies you of important dog-related events."
+        },
+        "how_it_works": {
+            "title": "How the Furbo Nanny Cam Bundle Works",
+            "flow": {
+                "0": {
+                    "alt": "cart",
+                    "text": "Subscribe to the Furbo Nanny Cam Bundle"
+                },
+                "1": {
+                    "alt": "truck",
+                    "text": "Receive your Furbo in the mail with free 2-day shipping"
+                },
+                "2": {
+                    "alt": "dog-furbo",
+                    "text": "Set up your Furbo and enjoy the unlimited Furbo Dog Nanny features"
+                }
+            }
+        },
+        "why_choose": {
+            "title": "Why Choose the Furbo Nanny Cam Bundle?",
+            "services": {
+                "0": {
+                    "title": "Low Upfront Cost",
+                    "alt": "low-cost",
+                    "text": "Unlike home security cameras that charge over $1,000 in installation and maintenance fees, Furbo Nanny Cam Bundle is only $9.99/month"
+                },
+                "1": {
+                    "title": "Cancel Anytime",
+                    "alt": "cancel-anytime",
+                    "text": "Cancel & return anytime after 3 months, no long-term contract"
+                },
+                "2": {
+                    "title": "Lifetime Warranty",
+                    "alt": "warranty",
+                    "text": "Free replacements,no questions asked"
+                },
+                "3": {
+                    "title": "24-Hour Support",
+                    "alt": "support",
+                    "text": "Contact us anytime"
+                }
+            }
+        },
+        "sponsor_shelter": {
+            "title": {
+                "alt": "sponsor-shelter",
+                "text": "Sponsor a shelter dog every month"
+            },
+            "subtitle": "Every month, a portion of proceeds from your Furbo Nanny Cam Bundle subscription will sponsor a shelter dog. Join us on our mission to keep every dog safe and happy.",
+            "help": {
+                "alt": "shelter-service",
+                "text": " You are helping shelter dogs with:"
+            }
+        },
+        "dogs_saved": {
+            "title": "1001 Dogs Saved — and Counting!",
+            "content": "Furbo’s features are designed specifically to keep dogs safe when they are home alone. It has saved over 500 dogs’ lives!",
+            "stories": {
+                "0": {
+                    "alt": "Furbo saves Kato (a Dalmatian) from a burning house ",
+                    "title": "Furbo saved my dog from a fire!",
+                    "short": "I recently purchased my Furbo because my baby Kato broke his leg",
+                    "content": "I recently purchased my Furbo because my baby Kato broke his leg and I needed to keep an eye on him when I was out. A few days ago I opened Furbo while I was out for dinner and saw that something was wrong at home. I immediately rushed home to find the house filled with smoke.",
+                    "author": "- Kato’s loving dog mom"
+                },
+                "1": {
+                    "alt": "The Furbo dog camera caught a clear view of the intruder breaking into the house and the tattoo on his arm and helped police identify the suspect successfully.",
+                    "title": "Furbo’s Person Alert caught an intruder in my house and the Cloud Recording videos helped the police catch him",
+                    "short": " thanks to Furbo’s recording. ",
+                    "content": "thanks to Furbo’s recording. Thanks for keeping my home and my pup safe, Furbo!",
+                    "author": "- Dexter’s loving dog mom"
+                },
+                "2": {
+                    "alt": "The Furbo dog camera's barking alert saved my dog from carbon monoxide poisoning",
+                    "title": "Furbo’s Barking Alert saved my dog from carbon monoxide poisoning!",
+                    "short": "I kept getting Barking Alert notifications",
+                    "content": "I kept getting Barking Alert notifications from Furbo so I checked in on my dog. I then heard that our carbon monoxide alarm was going off! So glad that I had Furbo to notify me, or else I may not have come home to my dog alive. You can see in the video my dog was sneezing and did not like the smell.",
+                    "author": "- Kobe’s loving dog mom"
+                }
+            }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": {
+                "0": {
+                    "heading": "Can I cancel my Furbo Nanny Cam Bundle subscription?",
+                    "content": "Yes, you may cancel your Furbo Nanny Cam Bundle subscription anytime after 3 months. After the first 3 months, please contact our Customer Support team to cancel your subscription."
+                },
+                "1": {
+                    "heading": "What happens after I cancel my subscription?",
+                    "content": "After canceling, you can continue using the subscription until the end of your current billing period. After your subscription expires, your Furbo Dog Camera will be remotely deactivated and you’ll permanently lose access to the Furbo Dog Camera and the Furbo Dog Nanny service. You’ll have 30 days to return the Furbo Dog Camera to us. Once you cancel your subscription, we will send you an email with detailed instructions on how to return your Furbo."
+                },
+                "2": {
+                    "heading": " Do I have to return the Furbo Dog Camera after canceling my subscription?",
+                    "content": "Yes, you are required to return your Furbo Dog Camera to our warehouse via UPS or Fedex within 30 days after your subscription expires. We’ll send you an email with detailed instructions on how to ship Furbo back to us when you cancel your subscription. Failure to return the Furbo to us will result in a penalty of US$179 + tax."
+                },
+                "3": {
+                    "heading": "What is the Hardware Lifetime Warranty?",
+                    "content": "As long as you are subscribed to Furbo Nanny Cam Bundle, you will have lifetime warranty for your Furbo Dog Camera. In the case that your Furbo breaks, you can replace it with a quality-checked, renewed Furbo Dog Camera."
+                }
+            }
+        },
+        "meta_title": "Treat-Tossing Dog Camera & 2 Way Audio | Free Shipping | Furbo Dog Camera",
+        "meta_description": "Furbo is an interactive dog camera with a connected app that lets you see, talk, and even give treats to your dog when you're away. Get free shipping!"
+    },
+    "faq": {
+        "page_name": "FAQ",
+        "doc_title": "What's The Best Dog Camera? | Furbo FAQs | Furbo Dog Camera",
+        "doc_description": "",
+        "meta_title": " ",
+        "meta_description": " "
+    },
+    "product": {
+        "page_name": "Furbo Dog Camera",
+        "doc_title": "Treat-Tossing Dog Camera & 2 Way Audio | Free Shipping | Furbo Dog Camera",
+        "doc_description": "",
+        "key_visual": {
+            "save": "Save",
+            "product_card": {
+                "0": {
+                    "title": "Furbo Dog Camera",
+                    "subtitle": "See, talk, toss treats, and receive Barking Alerts with Furbo Dog Camera. For more features subscribe to Furbo Dog Nanny for $6.99/month",
+                    "text": "Free 2-Day Shipping & 1 Year Warranty"
+                },
+                "1": {
+                    "title": "Furbo Nanny Cam Bundle",
+                    "subtitle": "Subscribe to an low monthly flexi-plan to receive both Furbo Dog Camera and Furbo Dog Nanny.",
+                    "text": "Free 2-Day Shipping, Lifetime Warranty, Cancel Anytime"
+                }
+            }
+        },
+        "camera_quality": {
+            "title": "Best-in-class camera quality",
+            "subtitle": "See in super clear 1080p Full HD, 4x zoom, 160° wide-angle and night vision. It’s the best of the best pet cam out there.",
+            "features": {
+                "0": {
+                    "alt": "camera-quality-fhd",
+                    "text": "Full HD Video Quality"
+                },
+                "1": {
+                    "alt": "camera-quality-wide-angle",
+                    "text": "160 ° Wide Angle"
+                },
+                "2": {
+                    "alt": "camera-quality-night-vision",
+                    "text": "Infrared Night Vision"
+                }
+            }
+        },
+        "fdn": {
+            "title": "Keep your dog safe with Furbo Dog Nanny",
+            "subtitle": "The Furbo Nanny Cam Bundle comes with a Furbo Dog Camera AND unlimited access to Furbo Dog Nanny features for a low monthly subscription of $9.99. Or, make a one-time Furbo Dog Camera purchase with the option to subscribe to Furbo Dog Nanny at $6.99/month or $69/year.",
+            "services": {
+                "0": {
+                    "alt": "cloud-recording",
+                    "text": "Cloud Recording"
+                },
+                "1": {
+                    "alt": "smart-alerts",
+                    "text": "Smart Alerts"
+                },
+                "2": {
+                    "alt": "doggie-diary",
+                    "text": "Doggie Diary"
+                }
+            }
+        },
+        "cloud_recording": {
+            "header": {
+                "alt": "cloud-recording-activity",
+                "title": "Activity Detected",
+                "end": "15s"
+            },
+            "title": {
+                "alt": "cloud-recording-icon",
+                "text": "Cloud Recording"
+            },
+            "subtitle": "All your 15-second video clips are saved within Cloud Recordings, so you can play back all the activity you missed during the day. Never miss out on a precious moment!"
+        },
+        "smart_alert": {
+            "alt": "Cloud Recording Icon",
+            "title": "Real-Time Smart Alerts",
+            "subtitle": "Know exactly what’s going on at home and be alerted of emergencies in real time."
+        },
+        "doggie_diary": {
+            "title": "Doggie Diary",
+            "alt": "doggie-diary",
+            "subtitle": "Furbo captures adorable moments in your dog’s day and creates a highlight video, saving you time from sorting through hours of video recordings."
+        },
+        "alexa": {
+            "title": "Works with Alexa",
+            "quote": "Alexa, tell Furbo to toss a treat.",
+            "text": "Furbo provides additional ways to keep your dog safe and happy via voice control. Alleviate your dog’s separation anxiety by scheduling treat tossing using Alexa."
+        },
+        "specs": {
+            "title": "Technical Specs",
+            "alt": "technical-specs",
+            "rows": {
+                "0": {
+                    "left": "Requirements",
+                    "right": {
+                        "0": "Broadband internet connection (1Mbps upload recommended)",
+                        "1": "Wi-Fi",
+                        "2": "Available power outlet",
+                        "3": "iOS 10 or newer",
+                        "4": "Android 6.0 or newer"
+                    }
+                },
+                "1": {
+                    "left": "Tech Spec",
+                    "right": {
+                        "0": "Size: 5.91x4.72x8.86 inches (15x12x22.5cm)",
+                        "1": "Weight: 2.1 pounds (950g)",
+                        "2": "Camera: 1080p HD, 160° wide-angle lens, 4x digital zoom, automatic night vision",
+                        "3": "Audio: Built-in speaker, high quality microphone",
+                        "4": "Treat capacity: 100 pieces",
+                        "5": "Recommended treat: Round shaped treats with a diameter around 0.4 inches(1cm)",
+                        "6": "Power: 100-240V, 5V2A"
+                    }
+                },
+                "2": {
+                    "left": "Inside the box",
+                    "right": {
+                        "0": "Furbo Dog Camera",
+                        "1": "2M USB cable",
+                        "2": "Furbo power adapter",
+                        "3": "Quick start guide"
+                    }
+                },
+                "3": {
+                    "left": "Warranty",
+                    "right": {
+                        "0": "1-year limited warranty Warranty policy"
+                    }
+                }
+            }
+        },
+        "qna": {
+            "title": "Q&A",
+            "questions": {
+                "0": {
+                    "heading": "How can Furbo keep my dog safe?",
+                    "content": "Furbo has saved over 500 dogs! Furbo will send you alerts of any important events happening at home, so you can be alerted of any emergencies in real time."
+                },
+                "1": {
+                    "heading": "How is Furbo different from generic security cameras?",
+                    "content": "Every element of Furbo is designed for dogs. Furbo is recommended by vets and dog trainers and can help alleviate your dog’s separation anxiety. Furbo's life-saving Smart Alerts can detect dog-related events and alert you about what’s happening at home."
+                },
+                "2": {
+                    "heading": "Do I have to pay for Furbo Dog Nanny?",
+                    "content": "No, Furbo Dog Nanny is an OPTIONAL subscription service that you can choose to purchase after your 30-day FREE trial, included with your purchase, is over."
+                },
+                "3": {
+                    "heading": "What treats can I use?",
+                    "content": "We recommend using dry, firm and round treats that are 0.5 inches for best treat-toss results!"
+                },
+                "4": {
+                    "heading": "Is Furbo suitable for large dogs?",
+                    "content": "During the development process of Furbo, many dogs of different sizes, breeds, and personalities tested out the sturdiness of Furbo. That’s why you will find a fixed 3M doubled-sided tape on the bottom of your Furbo, to prevent it from being knocked over. We recommend placing Furbo 12-20 inches above the floor (or based on the height of your dog and its mobility)."
+                },
+                "5": {
+                    "heading": "What is the return policy?",
+                    "content": "If you are not fully satisfied with your Furbo, you will have 30 days to return or exchange your Furbo."
+                },
+                "6": {
+                    "heading": "Does Furbo come with a warranty?",
+                    "content": "Yes! Furbo comes with a one year warranty starting from the date of shipping."
+                }
+            }
+        },
+        "user_reviews": {
+            "title": "10,000+ User Reviews",
+            "subtitle": "What pawrents are saying on Amazon.",
+            "ratings_text": "12,038 ratings",
+            "read_more": "...read more",
+            "verified_purchase": "Verified Purchase",
+            "left": {
+                "0": {
+                    "author": "Christopher",
+                    "quote": "Great for keeping track of your pup while at work",
+                    "short": "After purchasing this as a gift previously, I finally got around to purchasing this for myself, and boy was that a good decision!",
+                    "content": "After purchasing this as a gift previously, I finally got around to purchasing this for myself, and boy was that a good decision! My dog loves it, and it's extremely comforting knowing that my dog is safe at home while I'm away at work!"
+                },
+                "1": {
+                    "author": "Larry Towne",
+                    "quote": "You won’t regret it!",
+                    "short": "This is by far the best interactive pet camera ever. While my pup is home alone I can check on her, give her a treat or just make sure she's safe.",
+                    "content": "This is by far the best interactive pet camera ever. While my pup is home alone I can check on her, give her a treat or just make sure she's safe. She loves when the light changes color, running from wherever she is lounging to wait for a treat and I can make great videos of her at the same time. I would recommend this for any pet owner. It's fantastic!"
+                },
+                "2": {
+                    "author": "Amazon Customer",
+                    "quote": "Actual Life Saver!",
+                    "short": "I don't typically write reviews but last week Furbo actually saved my dog's life! My puppy was home alone and I got a Dog Activity Alert from Furbo.",
+                    "content": "I don't typically write reviews but last week Furbo actually saved my dog's life! My puppy was home alone and I got a Dog Activity Alert from Furbo. When I looked at the camera, I saw that she had pulled a bag of treats from the counter and it was over her head and she was stuck. I was able to keep her engaged with me by throwing treats using Furbo while I rushed home to help. Without Furbo my puppy would have suffocated in that bag. So thankful for this camera!"
+                }
+            },
+            "right": {
+                "0": {
+                    "author": "Elizabeth",
+                    "quote": "One Happy Dog Mom",
+                    "short": "I have 7 dogs and most are seniors, so I need to know what is going on throughout the day in case someone is sick. Furbo is PAWSOME!",
+                    "content": "I have 7 dogs and most are seniors, so I need to know what is going on throughout the day in case someone is sick. Furbo is PAWSOME! I love the clarity and I know what is going on with the notifications to my phone. I can see them anytime I want and see that they are OK! Peace of mind is everything!"
+                },
+                "1": {
+                    "author": "Kuei Chih Sun",
+                    "quote": "Finally peace of mind..",
+                    "short": "I was always concerned leaving my puppy home alone because he will cry a lot.. When I got Furbo, things got much better!",
+                    "content": "I was always concerned leaving my puppy home alone because he will cry a lot.. When I got Furbo, things got much better! Furbo sent me notifications to my phone when he was crying, so I would log on and talk to him right away. This changed everything!! My puppy knows I'm always there, so his separation anxiety is getting better. I feel much more relieved!"
+                },
+                "2": {
+                    "author": "Dustin Tremellen",
+                    "quote": "Best impulse purchase I've made!",
+                    "short": "I bought Furbo thinking it would just be something fun to see what my dog does while I'm away. Little did I know it would help in a dog medical emergency!",
+                    "content": "I bought Furbo thinking it would just be something fun to see what my dog does while I'm away. Little did I know it would help in a dog medical emergency! While I was away, my dog somehow got into her medication and ate a whole week's worth of pills. When I got home there was vomit everywhere. I was able to check Furbo's recordings to see what time she had eaten all the pills, this information helped greatly when I called animal poison control and go to the emergency vet! So thankful for Furbo!"
+                }
+            }
+        },
+        "service_list": {
+            "0": {
+                "alt": "one-year-warranty",
+                "text": "1 Year \nWarranty"
+            },
+            "1": {
+                "alt": "free-two-days-shipping",
+                "text": "Free 2-Day \nUS Shipping"
+            },
+            "2": {
+                "alt": "free-returns-thiry-days",
+                "text": "Free Returns \nwithin 30 Days"
+            }
+        },
+        "key_features": {
+            "left_grid": {
+                "0": {
+                    "name": "fhd",
+                    "id": "fhd-header",
+                    "title": "1080p Full HD",
+                    "alt": "key-features-fhd",
+                    "text": {
+                        "0": "160° (diagonal) wide-angle lens",
+                        "1": "4X digital zoom",
+                        "2": "Infrared LED night vision"
+                    }
+                },
+                "1": {
+                    "name": "two_way_audio",
+                    "id": "two-way-audio-header",
+                    "title": "2-Way Audio",
+                    "alt": "key-features-two-way-audio\" ",
+                    "text": {
+                        "0": "High quality microphone",
+                        "1": "Built-in speaker",
+                        "2": "Customized snack call"
+                    }
+                },
+                "2": {
+                    "name": "treat_tossing",
+                    "id": "treat-tossing-header",
+                    "title": "Fun Treat Tossing",
+                    "alt": "key-features-treat-tossing",
+                    "text": {
+                        "0": "100 pieces capacity",
+                        "1": "Round shaped treats with a diameter of 0.4in / 1cm work best"
+                    }
+                },
+                "3": {
+                    "name": "barking",
+                    "id": "barking-header",
+                    "title": "Barking Alert",
+                    "alt": "key-features-barking",
+                    "text": {
+                        "0": "Auto barking detection and push notification",
+                        "1": "Customize detection sensitivity according to your dog"
+                    }
+                }
+            },
+            "right_grid": {
+                "0": {
+                    "name": "photo_video",
+                    "id": "photo-video-header",
+                    "title": "Photo & Video",
+                    "alt": "key-features-photo-video",
+                    "text": {
+                        "0": "Track all your dog's special moment",
+                        "1": "Share the love with family and friends"
+                    }
+                },
+                "1": {
+                    "name": "spill_proof",
+                    "id": "spill-proof-header",
+                    "title": "Spill Proof",
+                    "alt": "key-features-spill-proof\" ",
+                    "text": {
+                        "0": "Industrial-strength 3M adhesives",
+                        "1": "Bamboo wooden cover"
+                    }
+                },
+                "2": {
+                    "name": "smart_alerts",
+                    "id": "smart-alerts-header",
+                    "title": "Smart Alerts",
+                    "alt": "key-features-smart-alerts",
+                    "text": {
+                        "0": "Dog Activity Alert, Person Alert, Home Emergency Alert, and many more",
+                        "1": "Exclusive to Furbo Dog Nanny subscribers"
+                    }
+                },
+                "3": {
+                    "name": "cloud_recording",
+                    "id": "cloud-recording-header",
+                    "title": "Cloud Recording",
+                    "alt": "key-features-cloud-recording",
+                    "text": {
+                        "0": "15-second video clips of important events",
+                        "1": "Exclusive to Furbo Dog Nanny subscribers"
+                    }
+                },
+                "4": {
+                    "name": "doggie_diary",
+                    "id": "doggie-diary-header",
+                    "title": "Doggie Diary",
+                    "alt": "key-features-doggie-diary",
+                    "text": {
+                        "0": "1-minute time-lapse video clip of your dog's day",
+                        "1": "Exclusive to Furbo Dog Nanny subscribers"
+                    }
+                }
+            }
+        },
+        "meta_title": " ",
+        "meta_description": "Furbo is an interactive dog camera with a connected app that lets you see, talk, and even give treats to your dog when you're away. Get free shipping!"
+    },
+    "home": {
+        "page_name": "Furbo Dog Camera",
+        "doc_title": "Furbo Dog Camera | Furbo Dog Camera - Treat-tossing Pet Camera with HD",
+        "doc_description": "",
+        "key_visual": {
+            "title": "Furbo Dog Camera",
+            "subtitle": "Keep your dog safe and happy even when you’re not home.",
+            "phone_view_alt": "home-phone-view",
+            "watch_video": "Watch Video"
+        },
+        "intro": {
+            "title": "What is Furbo Dog Camera?",
+            "intro_slides": {
+                "0": {
+                    "alt": "intro-barking-alert",
+                    "title": "Detect important events ",
+                    "content": "such as dog barking, intruders, home emergencies and more."
+                },
+                "1": {
+                    "alt": "intro-emergency-alert",
+                    "title": "Receive real-time alerts ",
+                    "content": "on your phone."
+                },
+                "2": {
+                    "alt": "intro-catch-treats",
+                    "title": "See, talk and toss treats",
+                    "content": "to your dog from anywhere."
+                }
+            }
+        },
+        "faas": {
+            "title": "Furbo Nanny Cam Bundle",
+            "subtitle": "Subscribe to get a Furbo Dog Camera with unlimited Furbo Dog Nanny features for just $9.99 per month!",
+            "services": {
+                "low_upfront_cost": {
+                    "alt": "low-upfront-cost",
+                    "text": "Low Upfront Cost"
+                },
+                "cancel_anytime": {
+                    "alt": "cancel-anytime",
+                    "text": "Cancel Anytime"
+                },
+                "lifetime_warranty": {
+                    "alt": "lifetime-warranty",
+                    "text": "Lifetime Warranty"
+                },
+                "24hour_support": {
+                    "alt": "24hour-support",
+                    "text": "24-Hour Support"
+                }
+            }
+        },
+        "smart_alert": {
+            "title": "Keep your dog safe with real-time Smart Alerts",
+            "subtitle": "Unlike other cameras that send you general motion and sound alerts, Furbo only notifies you of important dog-related events."
+        },
+        "cloud_recording": {
+            "alt": "cloud-recording",
+            "title": "Play back the important moments you missed with Cloud Recording",
+            "subtitle": "Furbo detects and records video clips of important dog-related events. Download and save the videos to your phone."
+        },
+        "designed_for_dogs": {
+            "title": "The only camera designed for dogs",
+            "row": {
+                "0": {
+                    "title": "Vet and dog trainer approved",
+                    "subtitle": "Furbo helps alleviate dog separation anxiety",
+                    "alt": "trainer-approved-icon"
+                },
+                "1": {
+                    "title": "Clicker training with treats",
+                    "subtitle": "Furbo plays a clicker sound before tossing treats to mimic positive reinforcement training",
+                    "alt": "treat-icon"
+                },
+                "2": {
+                    "title": "Cloud Recording",
+                    "subtitle": "See 15-second video clips when your dog is in view",
+                    "alt": "cloud-recording-icon"
+                },
+                "3": {
+                    "title": "Doggie Diary",
+                    "subtitle": "Watch a video highlight of your dog’s day",
+                    "alt": "doggie-diary-icon"
+                },
+                "4": {
+                    "title": "Dog Activity Alert",
+                    "subtitle": " ",
+                    "alt": "dog-activity-alert-icon"
+                },
+                "5": {
+                    "title": "Dog Selfie Alert",
+                    "subtitle": "Furbo helps alleviate dog separation anxiety",
+                    "alt": "dog-selfie-alert-icon"
+                },
+                "6": {
+                    "title": "Person Alert",
+                    "subtitle": " ",
+                    "alt": "person-alert-icon"
+                },
+                "7": {
+                    "title": "Barking, Crying, Howling Alert",
+                    "subtitle": " ",
+                    "alt": "barking-crying-howling-alert-icon"
+                },
+                "8": {
+                    "title": "Home Emergency Alert",
+                    "subtitle": "Be notified when your smoke or CO alarm goes off",
+                    "alt": "home-emergency-icon"
+                },
+                "9": {
+                    "title": "New features coming soon!",
+                    "subtitle": "Dog Vomit Alert, Choking Alert, Seizure Alert, Health Report and more",
+                    "alt": "new-feature-icon"
+                }
+            },
+            "column": {
+                "0": {
+                    "title": "Furbo Dog Camera",
+                    "alt": "designed-for-dogs-furbo-cam"
+                },
+                "1": {
+                    "title": "Generic Security Cam",
+                    "alt": "designed-for-dogs-generic-cam"
+                }
+            }
+        },
+        "recommended": {
+            "title": "Recommended by <span>vets</span> and <span>dog trainers</span>",
+            "card": {
+                "0": {
+                    "alt": "recommended-vet",
+                    "text": "“The most common accident that happens to home-alone dogs is eating or chewing something they’re not supposed to.",
+                    "bold_text": "Furbo’s Dog Activity Alert and Cloud Recording videos can be beneficial for catching it quickly and being able to stop further ingestion and possible harm to the pet.”",
+                    "author": "- Dr. Curtis, house-call vet"
+                },
+                "1": {
+                    "alt": "recommended-trainer",
+                    "text": "“Furbo Dog Camera can alleviate separation anxiety",
+                    "bold_text": "in dogs and improve the quality of your dog’s life.”",
+                    "author": "- Zak George, professional dog trainer"
+                }
+            }
+        },
+        "save_dogs_lives": {
+            "title": "Our mission is to keep dogs safe and happy",
+            "dogs_saved": "dogs saved",
+            "slide": {
+                "0": {
+                    "alt": "save-life-fire-2",
+                    "title": "Receiving Furbo’s alerts is crucial. Being there on time saves lives.",
+                    "subtitle": "We’re lucky Hera’s okay, just minor injuries. Pups push the limits and",
+                    "author": "- Loving dog dad, Abel Goldfarb"
+                },
+                "1": {
+                    "alt": "save-life-fire-3",
+                    "title": "Furbo’s Barking Alert saved my dog from carbon monoxide poisoning!",
+                    "subtitle": "I kept getting Barking Alert notifications",
+                    "author": "- Kobe’s loving dog mom"
+                },
+                "2": {
+                    "alt": "save-life-fire-3",
+                    "title": "Furbo saved my dog from a fire!",
+                    "subtitle": "I recently purchased my Furbo because my baby Kato broke his leg",
+                    "author": "- Kato’s loving dog mom"
+                }
+            },
+            "subtitle": "“Furbo saved my dog’s life!”"
+        },
+        "best_seller": {
+            "rating": {
+                "alt": "ratings",
+                "text": "12,038 ratings"
+            },
+            "best_seller": {
+                "alt": "best-seller"
+            },
+            "amazon": {
+                "alt": "amazon-logo"
+            }
+        },
+        "meta_title": " ",
+        "meta_description": "Furbo Dog Camera lets you see, talk and toss treats to your dog when you're not home. It's the #1 best-selling interactive pet camera. Furbo alerts you when your dog barks by sending you Bark Alerts on your phone. Over 5,000 vets and professional dog trainers recommend using Furbo to ease separation anxiety in dogs."
+    },
+    "order_status": {
+        "page_name": "Order Status",
+        "doc_title": "Order Lookup | Furbo Dog Camera",
+        "doc_description": "",
+        "meta_title": " ",
+        "meta_description": " "
+    },
+    "press_mention": {
+        "page_name": "Press",
+        "doc_title": "Press mention | Furbo Dog Camera",
+        "doc_description": "",
+        "meta_title": " ",
+        "meta_description": "Looking for a pet camera to monitor your dog remotely? See what the media and review sites say about Furbo Dog Camera... "
+    },
+    "save_dog_lives": {
+        "page_name": "Furbo Saves Lives",
+        "doc_title": "Furbo Dog Camera Saves Dogs Lives",
+        "doc_description": "",
+        "key_visual": {
+            "title": "Our mission is to keep dogs safe and happy",
+            "counterText": "dogs saved",
+            "content": "Furbo’s features are designed specifically to keep dogs safe when they are home alone. This year, Furbo has helped saved 1001 dogs’ lives."
+        },
+        "save_lives_story": {
+            "fire_story": {
+                "title": {
+                    "service": "Home Emergency Alerts",
+                    "hazard": "Fires and Injuries"
+                },
+                "content": "Furbo uses AI technology to detect when a smoke alarm goes off, or a glass breaking sound and send you real-time Home Emergency Alerts.",
+                "stories": {
+                    "0": {
+                        "alt": "Furbo saves Kato (a Dalmatian) from a burning house",
+                        "cardTitle": "Furbo saved my dog from a fire!",
+                        "short": "I recently purchased my Furbo because my baby Kato broke his leg",
+                        "content": "I recently purchased my Furbo because my baby Kato broke his leg and I needed to keep an eye on him when I was out. A few days ago I opened Furbo while I was out for dinner and saw that something was wrong at home. I immediately rushed home to find the house filled with smoke.",
+                        "author": "- Kato’s loving dog mom"
+                    },
+                    "1": {
+                        "cardTitle": "Receiving Furbo’s alerts is crucial. Being there on time saves lives.",
+                        "short": "We’re lucky Hera’s okay, just minor injuries. Pups push the limits and",
+                        "content": "We’re lucky Hera’s okay, just minor injuries. Pups push the limits and end up in dangerous situations.",
+                        "author": "- Loving dog dad, Abel Goldfarb"
+                    },
+                    "2": {
+                        "cardTitle": "Furbo’s Barking Alert saved my dog from carbon monoxide poisoning!",
+                        "short": "I kept getting Barking Alert notifications",
+                        "content": "I kept getting Barking Alert notifications from Furbo so I checked in on my dog. I then heard that our carbon monoxide alarm was going off! So glad that I had Furbo to notify me, or else I may not have come home to my dog alive. You can see in the video my dog was sneezing and did not like the smell.",
+                        "author": "- Kobe’s loving dog mom"
+                    }
+                }
+            },
+            "intruderStory": {
+                "title": {
+                    "service": "Person Alerts",
+                    "hazard": "Intruders"
+                },
+                "content": "Stranger danger! Furbo’s Smart Detection Technology can tell the difference between a dog and a person. Receive Person Alerts when Furbo spots someone in your home. Make sure no one other than people you trust is with your dog.",
+                "stories": {
+                    "0": {
+                        "alt": "The Furbo dog camera caught a clear view of the intruder breaking into the house and the tattoo on his arm and helped police identify the suspect successfully.",
+                        "cardTitle": "Furbo’s Person Alert caught an intruder in my house and the Cloud Recording videos helped the police catch him",
+                        "short": "thanks to Furbo’s recording.",
+                        "content": "thanks to Furbo’s recording. Thanks for keeping my home and my pup safe, Furbo!",
+                        "author": "- Dexter’s loving dog mom"
+                    },
+                    "1": {
+                        "alt": "Police catching the intruder right in the act thanks to Furbo’s person alert",
+                        "cardTitle": "Furbo’s Person Alert notified us someone broke into our house!",
+                        "short": "The police were able to catch him thanks to Furbo’s recording.",
+                        "content": "The police were able to catch him thanks to Furbo’s recording. Thanks for keeping my home and my pup safe, Furbo!",
+                        "author": "- Kelly, loving dog mom"
+                    },
+                    "2": {
+                        "alt": "A girl was breaking into someone’s home and stealing money from their purse.",
+                        "cardTitle": "Thanks to Furbo’s Person Alert and Cloud Recording videos I was able to catch the girl who BROKE INTO MY HOME and ROBBED ME!",
+                        "short": "Furbo was the best Christmas gift I could have received and not only can I watch my sweet boy Cooper, but the police have Furbo recordings of the thief and ",
+                        "content": "Furbo was the best Christmas gift I could have received and not only can I watch my sweet boy Cooper, but the police have Furbo recordings of the thief and now I can feel safe again. Thanks so much Furbo!",
+                        "author": "- Crystal, loving dog mom"
+                    }
+                }
+            },
+            "emergencyStory": {
+                "title": {
+                    "service": "Dog Activity Alerts",
+                    "hazard": "Emergencies"
+                },
+                "content": "Anything can happen to your dogs when they’re home alone. When Furbo detects dog movements, it will send you Dog Activity Alerts. Be alerted of emergencies in real time.",
+                "stories": {
+                    "0": {
+                        "alt": "TA dog was chewing on a women’s pink three-blade shaving razors in the living room.",
+                        "cardTitle": "Furbo’s Dog Activity Alert notified me my dog was CHEWING ON A RAZOR with 3 BLADES on it!",
+                        "short": "I was able to alert my boyfriend and tell him to go grab it from my dog in the living room. Without Furbo I’m not sure what would have happened.",
+                        "content": "I was able to alert my boyfriend and tell him to go grab it from my dog in the living room. Without Furbo I’m not sure what would have happened. Thank you Furbo for saving my pup!",
+                        "author": "- Kristy, loving dog mom"
+                    },
+                    "1": {
+                        "alt": "An Australian shepherd had shredded a bag of chocolate truffles on the kitchen floor.",
+                        "cardTitle": "Today Furbo’s alert saved my dog’s life!",
+                        "short": "Furbo snapped a selfie and showed that Leia had shredded a bag of chocolate truffles - I immediately rushed home just as she had gotten down a bag of dark chocolate.",
+                        "content": "Furbo snapped a selfie and showed that Leia had shredded a bag of chocolate truffles - I immediately rushed home just as she had gotten down a bag of dark chocolate. Thank you Furbo - my mini Aussie wouldn’t have done well consuming 5 oz of dark chocolate.",
+                        "author": "- Leia’s loving dog mom"
+                    },
+                    "2": {
+                        "alt": "3-months old puppy climbed up to the kitchen counter.",
+                        "cardTitle": "Furbo saved my puppy from potentially injuring herself!",
+                        "short": "My 3 month old puppy figured out how to climb out her pin, and get onto the counters! Thank goodness the Furbo notified me she was barking and I was able to have a family member run home!",
+                        "content": "My 3 month old puppy figured out how to climb out her pin, and get onto the counters! Thank goodness the Furbo notified me she was barking and I was able to have a family member run home! Love my Furbo!",
+                        "author": "- Haylee, loving dog mom"
+                    }
+                }
+            }
+        },
+        "help_story": {
+            "title": "How You Helped Us to Keep EVERY DOG happy and safe in 2020",
+            "slides": {
+                "0": {
+                    "alt": "Furbo built a tiny house for a homeless dog - Nemo.",
+                    "title": "Furbo Tiny House For Homeless Dog",
+                    "subtitle": "A tiny house built just for senior dog Nemo"
+                },
+                "1": {
+                    "alt": "Furbo helped frontines heroes stay connected to their pups while they’re away fighting for us",
+                    "title": "Giving Back To Our Medical Heroes",
+                    "subtitle": "Helping frontlines heroes stay connected to their pups while they’re away fighting for us"
+                },
+                "2": {
+                    "alt": "Furbo helps pups get adjusted to thier new homes",
+                    "title": "A Gift To Foster & Adoptive Families",
+                    "subtitle": "Furbo helps pups get adjusted to their new homes"
+                },
+                "3": {
+                    "alt": "Furbo works with the Humane Society and other global partners to keep every dog happy and safe",
+                    "title": "Sponsoring Shelter Dogs Around the Worl'",
+                    "subtitle": "Working with the Humane Society and other global partners to keep every dog HAPPY and SAFE"
+                }
+            }
+        },
+        "infographic": {
+            "alt": "Furbo's inforgraphic showing how we have kept every dog safe and happy in 2020."
+        },
+        "meta_title": " ",
+        "meta_description": "Unlike other home cameras that send you general motion and sound alerts, Furbo's Smart Dog Technology monitors your dog's barking and activities. It will only notify you of dog-related events."
+    },
+    "footer": {
+        "about": {
+            "title": "About",
+            "our_story": "Our Story",
+            "work_with_alexa": "Works with Alexa",
+            "blogs": "Blogs",
+            "press": "Press"
+        },
+        "support": {
+            "title": "Support",
+            "faq": "FAQ",
+            "contact_us": "Contact Us",
+            "order_status": "Order Status",
+            "warranty_and_returns": "Warranty & Returns"
+        },
+        "terms_link": {
+            "privacy_policy": "Privacy Policy",
+            "terms_and_condition": "Terms & Conditions",
+            "sitemap": "Sitemap"
+        },
+        "rights_reserved": "All rights reserved."
+    },
+    "faas": {
+        "page_name": "Nanny Cam Bundle",
+        "doc_title": "Treat-Tossing Dog Camera & 2 Way Audio | Free Shipping | Furbo Dog Camera",
+        "key_visual": {
+            "title": "Introducing",
+            "subtitle": "Furbo Nanny Cam Bundle",
+            "content": "Low monthly price of $9.99 for a Furbo Dog Camera and unlimited Furbo Dog Nanny features"
+        },
+        "comparison": {
+            "add_on_text": "Optional add-on subscription for $6.99 / month",
+            "row": {
+                "0": {
+                    "title": "1080p Full HD, 2-Way Audio, Treat Toss",
+                    "subtitle": " ",
+                    "alt": "furbo-toss-treat-icon"
+                },
+                "1": {
+                    "title": "Dog Barking Alert",
+                    "subtitle": " ",
+                    "alt": "barking-alert-icon"
+                },
+                "2": {
+                    "title": "Dog Crying Alert",
+                    "subtitle": " ",
+                    "alt": "crying-alert-icon"
+                },
+                "3": {
+                    "title": "Dog Howling Alert",
+                    "subtitle": " ",
+                    "alt": "howling-alert-icon"
+                },
+                "4": {
+                    "title": "Continuous Barking Alert",
+                    "subtitle": " ",
+                    "alt": "continuous-barking-alert-icon"
+                },
+                "5": {
+                    "title": "Home Emergency Alert",
+                    "subtitle": "(Detects your smoke and carbon monoxide alarms)",
+                    "alt": "home-emergency-alert-icon"
+                },
+                "6": {
+                    "title": "Dog Activity Alert",
+                    "subtitle": " ",
+                    "alt": "activity-alert-icon"
+                },
+                "7": {
+                    "title": "Dog Selfie Alert",
+                    "subtitle": " ",
+                    "alt": "selfie-alert-icon"
+                },
+                "8": {
+                    "title": "Person Alert",
+                    "subtitle": " ",
+                    "alt": "person-alert-icon"
+                },
+                "9": {
+                    "title": "Cloud Recording",
+                    "subtitle": "(15-sec video clips)",
+                    "alt": "cloud-recording-icon"
+                },
+                "10": {
+                    "title": "Doggie Diary",
+                    "subtitle": "(Video highlight of your dog’s day)",
+                    "alt": "doggie-diary-icon"
+                },
+                "11": {
+                    "title": "New Features Coming Soon!",
+                    "subtitle": "(Vomit Alert, Choking Alert, Glass Breaking Alert and more)",
+                    "alt": "new-features-icon"
+                },
+                "12": {
+                    "title": "Hardware Lifetime Warranty",
+                    "subtitle": " ",
+                    "alt": "hardware-lifetime-warranty-icon"
+                },
+                "13": {
+                    "title": "Sponsor a Shelter Dog Every Month",
+                    "subtitle": " ",
+                    "alt": "sponsor-icon"
+                }
+            },
+            "column": {
+                "0": {
+                    "alt": "furbo-nanny-cam-bundle",
+                    "title": "Furbo Nanny Cam Bundle",
+                    "price": "$9.99/month",
+                    "content": "Camera + unlimited Furbo Dog Nanny features"
+                },
+                "1": {
+                    "alt": "basic-furbo-dog-camera",
+                    "title": "Basic Furbo Dog Camera",
+                    "price": "$133.99",
+                    "content": "+$6.99/month Optional Furbo Dog Nanny subscription"
+                }
+            }
+        },
+        "smart_alert": {
+            "alt": "Furbo Dog Nanny Icon",
+            "topic": "Furbo Dog Nanny",
+            "title": "Keep your dog safe with real-time Smart Alerts",
+            "subtitle": "Unlike other cameras that send you general motionand sound alerts, Furbo only notifies you of important dog-related events."
+        },
+        "how_it_works": {
+            "title": "How the Furbo Nanny Cam Bundle Works",
+            "flow": {
+                "0": {
+                    "alt": "cart",
+                    "text": "Subscribe to the Furbo Nanny Cam Bundle"
+                },
+                "1": {
+                    "alt": "truck",
+                    "text": "Receive your Furbo in the mail with free 2-day shipping"
+                },
+                "2": {
+                    "alt": "dog-furbo",
+                    "text": "Set up your Furbo and enjoy the unlimited Furbo Dog Nanny features"
+                }
+            }
+        },
+        "why_choose": {
+            "title": "Why Choose the Furbo Nanny Cam Bundle?",
+            "services": {
+                "0": {
+                    "title": "Low Upfront Cost",
+                    "alt": "low-cost",
+                    "text": "Unlike home security cameras that charge over $1,000 in installation and maintenance fees, Furbo Nanny Cam Bundle is only $9.99/month"
+                },
+                "1": {
+                    "title": "Cancel Anytime",
+                    "alt": "cancel-anytime",
+                    "text": "Cancel & return anytime after 3 months, no long-term contract"
+                },
+                "2": {
+                    "title": "Lifetime Warranty",
+                    "alt": "warranty",
+                    "text": "Free replacements,no questions asked"
+                },
+                "3": {
+                    "title": "24-Hour Support",
+                    "alt": "support",
+                    "text": "Contact us anytime"
+                }
+            }
+        },
+        "sponsor_shelter": {
+            "title": {
+                "alt": "sponsor-shelter",
+                "text": "Sponsor a shelter dog every month"
+            },
+            "subtitle": "Every month, a portion of proceeds from your Furbo Nanny Cam Bundle subscription will sponsor a shelter dog. Join us on our mission to keep every dog safe and happy.",
+            "help": {
+                "alt": "shelter-service",
+                "text": " You are helping shelter dogs with:"
+            }
+        },
+        "dogs_saved": {
+            "title": "1001 Dogs Saved — and Counting!",
+            "content": "Furbo’s features are designed specifically to keep dogs safe when they are home alone. It has saved over 500 dogs’ lives!",
+            "stories": {
+                "0": {
+                    "alt": "Furbo saves Kato (a Dalmatian) from a burning house ",
+                    "title": "Furbo saved my dog from a fire!",
+                    "short": "I recently purchased my Furbo because my baby Kato broke his leg",
+                    "content": "I recently purchased my Furbo because my baby Kato broke his leg and I needed to keep an eye on him when I was out. A few days ago I opened Furbo while I was out for dinner and saw that something was wrong at home. I immediately rushed home to find the house filled with smoke.",
+                    "author": "- Kato’s loving dog mom"
+                },
+                "1": {
+                    "alt": "The Furbo dog camera caught a clear view of the intruder breaking into the house and the tattoo on his arm and helped police identify the suspect successfully.",
+                    "title": "Furbo’s Person Alert caught an intruder in my house and the Cloud Recording videos helped the police catch him",
+                    "short": " thanks to Furbo’s recording. ",
+                    "content": "thanks to Furbo’s recording. Thanks for keeping my home and my pup safe, Furbo!",
+                    "author": "- Dexter’s loving dog mom"
+                },
+                "2": {
+                    "alt": "The Furbo dog camera's barking alert saved my dog from carbon monoxide poisoning",
+                    "title": "Furbo’s Barking Alert saved my dog from carbon monoxide poisoning!",
+                    "short": "I kept getting Barking Alert notifications",
+                    "content": "I kept getting Barking Alert notifications from Furbo so I checked in on my dog. I then heard that our carbon monoxide alarm was going off! So glad that I had Furbo to notify me, or else I may not have come home to my dog alive. You can see in the video my dog was sneezing and did not like the smell.",
+                    "author": "- Kobe’s loving dog mom"
+                }
+            }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "questions": {
+                "0": {
+                    "heading": "Can I cancel my Furbo Nanny Cam Bundle subscription?",
+                    "content": "Yes, you may cancel your Furbo Nanny Cam Bundle subscription anytime after 3 months. After the first 3 months, please contact our Customer Support team to cancel your subscription."
+                },
+                "1": {
+                    "heading": "What happens after I cancel my subscription?",
+                    "content": "After canceling, you can continue using the subscription until the end of your current billing period. After your subscription expires, your Furbo Dog Camera will be remotely deactivated and you’ll permanently lose access to the Furbo Dog Camera and the Furbo Dog Nanny service. You’ll have 30 days to return the Furbo Dog Camera to us. Once you cancel your subscription, we will send you an email with detailed instructions on how to return your Furbo."
+                },
+                "2": {
+                    "heading": " Do I have to return the Furbo Dog Camera after canceling my subscription?",
+                    "content": "Yes, you are required to return your Furbo Dog Camera to our warehouse via UPS or Fedex within 30 days after your subscription expires. We’ll send you an email with detailed instructions on how to ship Furbo back to us when you cancel your subscription. Failure to return the Furbo to us will result in a penalty of US$179 + tax."
+                },
+                "3": {
+                    "heading": "What is the Hardware Lifetime Warranty?",
+                    "content": "As long as you are subscribed to Furbo Nanny Cam Bundle, you will have lifetime warranty for your Furbo Dog Camera. In the case that your Furbo breaks, you can replace it with a quality-checked, renewed Furbo Dog Camera."
+                }
+            }
+        },
+        "meta_title": "Treat-Tossing Dog Camera & 2 Way Audio | Free Shipping | Furbo Dog Camera",
+        "meta_description": "Furbo is an interactive dog camera with a connected app that lets you see, talk, and even give treats to your dog when you're away. Get free shipping!"
+    }
 }
