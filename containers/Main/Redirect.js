@@ -17,7 +17,7 @@ const Redirect = () => {
   const pathname = useRouter().pathname;
   const dispatch = useDispatch();
   const region = useSelector((state) => state.region);
- 
+
   useEffect(() => {
     const path = `${getElementFromDivision(pathname, '/', 1)}`;
     endpoint.current = pathname.replace(`/${path}`, '');

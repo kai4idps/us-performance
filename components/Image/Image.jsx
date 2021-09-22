@@ -21,13 +21,13 @@ const Image = ({
 };
 
 Image.propTypes = {
-    alt: PropTypes.string.isRequired,
-    src: PropTypes.string.isRequired,
-    fallback: PropTypes.string.isRequired,
-    type: PropTypes.string,
-    loading: PropTypes.string,
-    width: PropTypes.number.isRequired,
-    height: PropTypes.number.isRequired,
+    // alt: PropTypes.string.isRequired,
+    // src: PropTypes.string.isRequired,
+    // fallback: PropTypes.string.isRequired,
+    // type: PropTypes.string,
+    // loading: PropTypes.string,
+    // width: PropTypes.number.isRequired,
+    // height: PropTypes.number.isRequired,
 };
 
 export default Image;

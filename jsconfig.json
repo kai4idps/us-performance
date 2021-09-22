@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/container/*": ["container/*"],
+      "@/containers/*": ["containers/*"],
       "@/assets/*": ["public/assets/*"],
       "@/config/*": ["config/*"],
       "@/redux/*": ["redux/*"],

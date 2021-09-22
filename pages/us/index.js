@@ -1,36 +1,28 @@
-import Head from 'next/head';
-import Main from "@/container/us/Main";
-// import nextI18NextConfig from "../../next-i18next.config";
-// import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import React from 'react';
+import Main from "containers/us/Main";
+import { useRouter } from 'next/router';
+import MetaManager from '@/containers/Main/MetaManager';
+import {
+    routes,
+} from '@/config/routes/routes_us';
+import nextI18NextConfig from "../../next-i18next.config";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Home() {
+  const pathname = useRouter().pathname;
 
   return (
     <>
-      <Head>
-         <title>
-            Furbo Dog Camera | Furbo Dog Camera - Treat-tossing Pet Camera with
-            HD
-        </title>
-        <meta
-            name="title"
-            content="Furbo Dog Camera | Furbo Dog Camera - Treat-tossing Pet Camera with HD"
-        />
-        <meta
-            name="description"
-            content="Furbo Dog Camera lets you see, talk and toss treats to your dog when you're not home. It's the #1 best-selling interactive pet camera. Furbo alerts you when your dog barks by sending you Bark Alerts on your phone. Over 5,000 vets and professional dog trainers recommend using Furbo to ease separation anxiety in dogs."
-        />
-      </Head>
+      <MetaManager routes={routes} pathname={pathname} />
       <Main />
     </>
   )
 }
 
-// export const getServerSideProps = async ({ locale }) => {
-
-// 	return {
-// 		props: {
-// 			...(await serverSideTranslations(locale, ["common"]))
-// 		}
-// 	};
-// };
+export const getServerSideProps = async ({ locale }) => {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common"], nextI18NextConfig))
+		}
+	};
+};

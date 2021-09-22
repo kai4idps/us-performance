@@ -1,5 +1,6 @@
-import { Provider } from 'react-redux'
-import Redirect from '@/container/Main/Redirect';
+import { Provider } from 'react-redux';
+import { appWithTranslation } from 'next-i18next';
+import Redirect from '@/containers/Main/Redirect';
 import store from '@/redux/configureStore';
 import '../styles/globals.css'
 
@@ -10,4 +11,4 @@ function MyApp({ Component, pageProps }) {
           </Provider>
 }
 
-export default MyApp
+export default appWithTranslation(MyApp)
