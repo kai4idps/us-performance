@@ -60,7 +60,7 @@ const Intro = () => {
             },
         ],
     };
-console.log(postContent.introSlides);
+    
     return (
         <div className={classes.root}>
              <div className={classes.title}>

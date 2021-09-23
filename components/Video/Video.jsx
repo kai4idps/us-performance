@@ -16,7 +16,6 @@ const Video = ({
     scrollPosition,
     ...props
 }) => {
-    console.log('src', src);
     if (visibleByDefault) {
         return <video alt={alt} src={src} {...props} />;
     } else if (rwd) {

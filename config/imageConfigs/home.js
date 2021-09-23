@@ -11,6 +11,11 @@ import HOME_CORGI_BARKING_WEBP from '@/assets/images/home/home-corgi-barking.web
 import HOME_CORGI_BARKIN_JPG from '@/assets/images/home/home-corgi-barking.jpg';
 import HOME_EMERGENCY_ALERT_WEBP from '@/assets/images/home/home-emergency-alert.webp';
 import HOME_EMERGENCY_ALERT_JPG from '@/assets/images/home/home-emergency-alert.jpg';
+//* Faas
+import HOME_FAAS_DESKTOP_WEBP from '@/assets/images/home/home-faas-desktop.webp';
+import HOME_FAAS_DESKTOP_JPG from '@/assets/images/home/home-faas-desktop.jpg';
+import HOME_FAAS_MOBILE_WEBP from '@/assets/images/home/home-faas-mobile.webp';
+import HOME_FAAS_MOBILE_JPG from '@/assets/images/home/home-faas-mobile.jpg';
 
 export {
     HOME_PHONE_VIEW_WEBP,
@@ -24,4 +29,8 @@ export {
     HOME_CORGI_BARKIN_JPG,
     HOME_EMERGENCY_ALERT_WEBP,
     HOME_EMERGENCY_ALERT_JPG,
+    HOME_FAAS_DESKTOP_WEBP,
+    HOME_FAAS_DESKTOP_JPG,
+    HOME_FAAS_MOBILE_WEBP,
+    HOME_FAAS_MOBILE_JPG,
 }
