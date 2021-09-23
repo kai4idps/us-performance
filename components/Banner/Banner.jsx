@@ -85,7 +85,7 @@ const Banner = () => {
                 infiniteLoop={false}
                 showIndicators={false}
                 showStatus={false}
-                autoplay={false}
+                autoPlay={false}
                 transitionTime={0}
             >
                 <BannerContent />

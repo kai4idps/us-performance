@@ -16,6 +16,10 @@ import HOME_FAAS_DESKTOP_WEBP from '@/assets/images/home/home-faas-desktop.webp'
 import HOME_FAAS_DESKTOP_JPG from '@/assets/images/home/home-faas-desktop.jpg';
 import HOME_FAAS_MOBILE_WEBP from '@/assets/images/home/home-faas-mobile.webp';
 import HOME_FAAS_MOBILE_JPG from '@/assets/images/home/home-faas-mobile.jpg';
+//* Cloud recording
+import HOME_ACTIVITY_ALERT_MP4 from '@/assets/images/home/home-activity-alert.mp4';
+import HOME_CLOUD_RECORDING_DESKTOP_MP4 from '@/assets/images/home/cloud-recording-desktop.mp4';
+import HOME_CLOUD_RECORDING_MOBILE_MP4 from '@/assets/images/home/cloud-recording-mobile.mp4';
 //* Designed for dogs
 import HOME_VET_APPROVE_SVG from '@/assets/images/home/home-vet-approve.svg';
 import HOME_CLACK_SVG from '@/assets/images/home/home-clack.svg';
@@ -46,4 +50,7 @@ export {
     HOME_FURBO_CAM_JPG,
     HOME_GENERIC_CAM_WEBP,
     HOME_GENERIC_CAM_JPG,
+    HOME_ACTIVITY_ALERT_MP4,
+    HOME_CLOUD_RECORDING_DESKTOP_MP4,
+    HOME_CLOUD_RECORDING_MOBILE_MP4,
 }
