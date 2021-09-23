@@ -7,6 +7,7 @@ import CloudRecording from '@/components/pages/Home/CloudRecording';
 import DesignedForDogs from '@/components/pages/Home/DesignedForDogs';
 
 const Home = () => {
+  // React 18 suspense improve tti tbt ?
   return (
     <>
       <KeyVisual />

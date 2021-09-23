@@ -25,7 +25,7 @@ import HOME_VET_APPROVE_SVG from '@/assets/images/home/home-vet-approve.svg';
 import HOME_CLACK_SVG from '@/assets/images/home/home-clack.svg';
 import HOME_FURBO_CAM_WEBP from '@/assets/images/home/home-furbo-cam.webp';
 import HOME_FURBO_CAM_JPG from '@/assets/images/home/home-furbo-cam.jpg';
-import HOME_GENERIC_CAM_WEBP from '@/assets/images/home/home-generic-cam.webp';
+// import HOME_GENERIC_CAM_WEBP from '@/assets/images/home/home-generic-cam.webp';
 import HOME_GENERIC_CAM_JPG from '@/assets/images/home/home-generic-cam.jpg';
 
 export {
@@ -48,7 +48,7 @@ export {
     HOME_CLACK_SVG,
     HOME_FURBO_CAM_WEBP,
     HOME_FURBO_CAM_JPG,
-    HOME_GENERIC_CAM_WEBP,
+    // HOME_GENERIC_CAM_WEBP,
     HOME_GENERIC_CAM_JPG,
     HOME_ACTIVITY_ALERT_MP4,
     HOME_CLOUD_RECORDING_DESKTOP_MP4,

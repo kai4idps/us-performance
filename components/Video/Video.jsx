@@ -57,8 +57,8 @@ const Video = ({
 };
 
 Video.propTypes = {
-    alt: PropTypes.string.isRequired,
-    src: PropTypes.string.isRequired,
+    // alt: PropTypes.string.isRequired,
+    // src: PropTypes.string.isRequired,
     // width: PropTypes.number.isRequired,
     // height: PropTypes.number.isRequired,
     visibleByDefault: PropTypes.bool,

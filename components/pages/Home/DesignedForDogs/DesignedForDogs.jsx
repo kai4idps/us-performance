@@ -18,7 +18,7 @@ import {
     HOME_CLACK_SVG,
     HOME_FURBO_CAM_WEBP,
     HOME_FURBO_CAM_JPG,
-    HOME_GENERIC_CAM_WEBP,
+    // HOME_GENERIC_CAM_WEBP,
     HOME_GENERIC_CAM_JPG,
 } from '@/config/imageConfigs/home';
 import {
@@ -133,13 +133,13 @@ const DesignedForDogs = () => {
         ],
         column: [
             {
-                src: HOME_FURBO_CAM_WEBP,
-                fallback: HOME_FURBO_CAM_JPG,
+                src: HOME_FURBO_CAM_WEBP.src,
+                fallback: HOME_FURBO_CAM_JPG.src,
                 alt: t('home.designed_for_dogs.column.0.alt'),
                 title: t('home.designed_for_dogs.column.0.title'),
             },
             {
-                src: HOME_GENERIC_CAM_WEBP,
+                src: HOME_GENERIC_CAM_JPG,
                 fallback: HOME_GENERIC_CAM_JPG,
                 alt: t('home.designed_for_dogs.column.1.alt'),
                 title: t('home.designed_for_dogs.column.1.title'),
@@ -178,7 +178,7 @@ const DesignedForDogs = () => {
                                 <Image
                                     className={classes.camIcon}
                                     alt={postContent.column[0].alt}
-                                    src={postContent.column[0].src.src}
+                                    src={postContent.column[0].src}
                                     fallback={postContent.column[0].fallback}
                                 />
                             </div>
@@ -204,7 +204,7 @@ const DesignedForDogs = () => {
                                 <Image
                                     className={classes.camIcon}
                                     alt={postContent.column[1].alt}
-                                    src={postContent.column[1].src.src}
+                                    src={postContent.column[1].src}
                                     fallback={postContent.column[1].fallback}
                                 />
                             </div>

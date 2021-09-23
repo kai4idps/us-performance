@@ -16,25 +16,25 @@ import {
     // SMART_ALERTS_SLIDE_DESKTOP_WEBP,
     // SMART_ALERTS_SLIDE_MOBILE_JPG,
     // SMART_ALERTS_SLIDE_MOBILE_WEBP,
-    SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_BARKING_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_BARKING_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_SELFIE_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_SELFIE_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_PERSON_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_PERSON_MOBILE_JPG,
 } from 'config/imageConfigs/general';
 
@@ -48,37 +48,37 @@ const useStyles = makeStyles(styles);
 const slideList = [
     {
         alt: 'smart-alert-barking',
-        srcDesktop: SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
+        // srcDesktop: SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
         fallbackDesktop: SMART_ALERTS_SLIDE_BARKING_DESKTOP_JPG,
-        srcMobile: SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
+        // srcMobile: SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
         fallbackMobile: SMART_ALERTS_SLIDE_BARKING_MOBILE_JPG,
     },
     {
         alt: 'smart-alert-activity',
-        srcDesktop: SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
+        // srcDesktop: SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
         fallbackDesktop: SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_JPG,
-        srcMobile: SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
+        // srcMobile: SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
         fallbackMobile: SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_JPG,
     },
     {
         alt: 'smart-alert-selfie',
-        srcDesktop: SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
+        // srcDesktop: SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
         fallbackDesktop: SMART_ALERTS_SLIDE_SELFIE_DESKTOP_JPG,
-        srcMobile: SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
+        // srcMobile: SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
         fallbackMobile: SMART_ALERTS_SLIDE_SELFIE_MOBILE_JPG,
     },
     {
         alt: 'smart-alert-home-emergency',
-        srcDesktop: SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
+        // srcDesktop: SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
         fallbackDesktop: SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_JPG,
-        srcMobile: SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
+        // srcMobile: SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
         fallbackMobile: SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_JPG,
     },
     {
         alt: 'smart-alert-person',
-        srcDesktop: SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
+        // srcDesktop: SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
         fallbackDesktop: SMART_ALERTS_SLIDE_PERSON_DESKTOP_JPG,
-        srcMobile: SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
+        // srcMobile: SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
         fallbackMobile: SMART_ALERTS_SLIDE_PERSON_MOBILE_JPG,
     },
 ];
@@ -222,8 +222,8 @@ const SmartAlerts = (props) => {
                             key={index}
                             style={{
                                 backgroundImage: smDown
-                                    ? `url(${item.srcMobile.src}), url(${item.fallbackMobile.src})`
-                                    : `url(${item.srcDesktop.src}), url(${item.fallbackDesktop.src})`,
+                                    ? `url(${item.fallbackMobile.src}), url(${item.fallbackMobile.src})`
+                                    : `url(${item.fallbackDesktop.src}), url(${item.fallbackDesktop.src})`,
                             }}
                         />
                     ))}

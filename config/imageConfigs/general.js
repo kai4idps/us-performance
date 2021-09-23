@@ -6,29 +6,29 @@ import CANCEL_ICON_SVG from '@/assets/images/general/services/cancel.svg';
 import SUPPORT_ICON_SVG from '@/assets/images/general/services/support.svg';
 import NEW_ICON_SVG from '@/assets/images/general/new.svg';
 //* Smart alert
-import SMART_ALERTS_SLIDE_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.webp';
-import SMART_ALERTS_SLIDE_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.jpg';
-import SMART_ALERTS_SLIDE_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/smart-alerts-mobile.webp';
-import SMART_ALERTS_SLIDE_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/smart-alerts-mobile.jpg';
-import SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/activity-desktop.webp';
+// import SMART_ALERTS_SLIDE_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.webp';
+// import SMART_ALERTS_SLIDE_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.jpg';
+// import SMART_ALERTS_SLIDE_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/smart-alerts-mobile.webp';
+// import SMART_ALERTS_SLIDE_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/smart-alerts-mobile.jpg';
+// import SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/activity-desktop.webp';
 import SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/activity-desktop.jpg';
-import SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/activity-mobile.webp';
+// import SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/activity-mobile.webp';
 import SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/activity-mobile.jpg';
-import SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/barking-desktop.webp';
+// import SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/barking-desktop.webp';
 import SMART_ALERTS_SLIDE_BARKING_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/barking-desktop.jpg';
-import SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/barking-mobile.webp';
+// import SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/barking-mobile.webp';
 import SMART_ALERTS_SLIDE_BARKING_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/barking-mobile.jpg';
-import SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/selfie-desktop.webp';
+// import SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/selfie-desktop.webp';
 import SMART_ALERTS_SLIDE_SELFIE_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/selfie-desktop.jpg';
-import SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/selfie-mobile.webp';
+// import SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/selfie-mobile.webp';
 import SMART_ALERTS_SLIDE_SELFIE_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/selfie-mobile.jpg';
-import SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/home-emergency-desktop.webp';
+// import SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/home-emergency-desktop.webp';
 import SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/home-emergency-desktop.jpg';
-import SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/home-emergency-mobile.webp';
+// import SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/home-emergency-mobile.webp';
 import SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/home-emergency-mobile.jpg';
-import SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/person-desktop.webp';
+// import SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/person-desktop.webp';
 import SMART_ALERTS_SLIDE_PERSON_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/person-desktop.jpg';
-import SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/person-mobile.webp';
+// import SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP from '@/assets/images/general/smart_alerts_slides/person-mobile.webp';
 import SMART_ALERTS_SLIDE_PERSON_MOBILE_JPG from '@/assets/images/general/smart_alerts_slides/person-mobile.jpg';
 //* Smart alert icon
 import ACTIVITY_YELLOW_ICON_SVG from '@/assets/images/general/features/yellow/activity-yellow.svg';
@@ -59,29 +59,29 @@ export {
     SELFIE_YELLOW_ICON_SVG,
     HOME_EMERGENCY_RED_ICON_SVG,
     PERSON_YELLOW_ICON_SVG,
-    SMART_ALERTS_SLIDE_DESKTOP_WEBP,
-    SMART_ALERTS_SLIDE_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_MOBILE_WEBP,
-    SMART_ALERTS_SLIDE_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_DESKTOP_JPG,
+    // SMART_ALERTS_SLIDE_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_MOBILE_JPG,
+    // SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_ACTIVITY_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_ACTIVITY_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_BARKING_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_BARKING_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_BARKING_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_BARKING_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_SELFIE_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_SELFIE_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_SELFIE_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_SELFIE_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_HOME_EMERGENCY_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_HOME_EMERGENCY_MOBILE_JPG,
-    SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
+    // SMART_ALERTS_SLIDE_PERSON_DESKTOP_WEBP,
     SMART_ALERTS_SLIDE_PERSON_DESKTOP_JPG,
-    SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
+    // SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_PERSON_MOBILE_JPG,
     CLOUD_RECORDING_WHITE_ICON_SVG,
     DOGGIE_DIARY_WHITE_ICON_SVG,
