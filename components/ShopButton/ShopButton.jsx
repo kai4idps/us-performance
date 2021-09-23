@@ -23,8 +23,8 @@ export default function ShopButton(props) {
         <div className={classes.root}>
              <Link
                 href={{
-                    pathname: `/${language}/products/furbo-dog-camera`,
-                    search: location.query,
+                    pathname: `/${language}/products/furbo-dog-camera/`,
+                    query: location.query,
                 }}
                 passHref>
                 <Button
