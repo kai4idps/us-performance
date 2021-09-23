@@ -94,31 +94,31 @@ const SmartAlerts = (props) => {
     const dotList = [
         {
             index: 0,
-            src: BARKING_YELLOW_ICON_SVG.src,
+            src: BARKING_YELLOW_ICON_SVG,
             text: t('common.smart_alert.alert_list.0.text'),
             alt: t('common.smart_alert.alert_list.0.text'),
         },
         {
             index: 1,
-            src: ACTIVITY_YELLOW_ICON_SVG.src,
+            src: ACTIVITY_YELLOW_ICON_SVG,
             text: t('common.smart_alert.alert_list.1.text'),
             alt: t('common.smart_alert.alert_list.1.alt'),
         },
         {
             index: 2,
-            src: SELFIE_YELLOW_ICON_SVG.src,
+            src: SELFIE_YELLOW_ICON_SVG,
             text: t('common.smart_alert.alert_list.2.text'),
             alt: t('common.smart_alert.alert_list.2.alt'),
         },
         {
             index: 3,
-            src: HOME_EMERGENCY_RED_ICON_SVG.src,
+            src: HOME_EMERGENCY_RED_ICON_SVG,
             text: t('common.smart_alert.alert_list.3.text'),
             alt: t('common.smart_alert.alert_list.3.alt'),
         },
         {
             index: 4,
-            src: PERSON_YELLOW_ICON_SVG.src,
+            src: PERSON_YELLOW_ICON_SVG,
             text: t('common.smart_alert.alert_list.4.text'),
             alt: t('common.smart_alert.alert_list.4.alt'),
         },
@@ -222,8 +222,8 @@ const SmartAlerts = (props) => {
                             key={index}
                             style={{
                                 backgroundImage: smDown
-                                    ? `url(${item.fallbackMobile.src}), url(${item.fallbackMobile.src})`
-                                    : `url(${item.fallbackDesktop.src}), url(${item.fallbackDesktop.src})`,
+                                    ? `url(${item.fallbackMobile}), url(${item.fallbackMobile})`
+                                    : `url(${item.fallbackDesktop}), url(${item.fallbackDesktop})`,
                             }}
                         />
                     ))}

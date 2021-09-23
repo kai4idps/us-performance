@@ -15,11 +15,11 @@ const keyVisualPostStyle = (theme) => ({
         flexWrap: 'wrap',
         backgroundSize: 'auto 100%',
         backgroundPosition: 'right',
-        backgroundImage: `url(${HOME_KV_DESKTOP_WEBP.src}), url(${HOME_KV_DESKTOP_JPG.src})`,
+        backgroundImage: `url(${HOME_KV_DESKTOP_WEBP}), url(${HOME_KV_DESKTOP_JPG})`,
         backgroundRepeat: 'no-repeat',
         [theme.breakpoints.down('sm')]: {
             backgroundSize: '100%',
-            backgroundImage: `url(${HOME_KV_MOBILE_WEBP.src}), url(${HOME_KV_MOBILE_JPG.src})`,
+            backgroundImage: `url(${HOME_KV_MOBILE_WEBP}), url(${HOME_KV_MOBILE_JPG})`,
             backgroundPosition: 'bottom',
             minHeight: '800px',
         },

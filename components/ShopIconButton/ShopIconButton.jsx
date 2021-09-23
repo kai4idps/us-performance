@@ -31,7 +31,7 @@ const ShopIconButton = (props) => {
                 <IconButton>
                     <Icon className={classes.icon}>
                         <Image
-                            src={SHOP_ICON.src}
+                            src={SHOP_ICON}
                             className={classes.image}
                             alt='SHOP_ICON'
                             type="image/svg+xml"

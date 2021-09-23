@@ -14,11 +14,11 @@ const faasStyle = (theme) => ({
         flexWrap: 'wrap',
         backgroundSize: 'contain',
         backgroundPosition: '0% 50%',
-        backgroundImage: `url(${HOME_FAAS_DESKTOP_WEBP.src}), url(${HOME_FAAS_DESKTOP_JPG.src})`,
+        backgroundImage: `url(${HOME_FAAS_DESKTOP_WEBP}), url(${HOME_FAAS_DESKTOP_JPG})`,
         backgroundRepeat: 'no-repeat',
         [theme.breakpoints.down('sm')]: {
             backgroundSize: '100%',
-            backgroundImage: `url(${HOME_FAAS_MOBILE_WEBP.src}), url(${HOME_FAAS_MOBILE_JPG.src})`,
+            backgroundImage: `url(${HOME_FAAS_MOBILE_WEBP}), url(${HOME_FAAS_MOBILE_JPG})`,
             backgroundPosition: 'bottom',
             minHeight: '800px',
             height: 700,

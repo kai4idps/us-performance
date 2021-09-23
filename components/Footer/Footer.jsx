@@ -238,7 +238,7 @@ const Footer = (props) => {
                         >
                             <Image
                                 className={classes.flag}
-                                src={REGION_INFO[language.toUpperCase()]?.image.src}
+                                src={REGION_INFO[language.toUpperCase()]?.image}
                                 alt={REGION_INFO[language.toUpperCase()]?.code}
                                 type="image/svg+xml"
                             />
@@ -305,7 +305,7 @@ const Footer = (props) => {
                                                                 >
                                                                     <Image
                                                                         className={classes.flag}
-                                                                        src={item.image.src}
+                                                                        src={item.image}
                                                                         alt={item.code}
                                                                         type="image/svg+xml"
                                                                     />

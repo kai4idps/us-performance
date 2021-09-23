@@ -31,7 +31,7 @@ const HomeButton = () => {
                 <Image
                     className={classes.icon}
                     alt="furbo-logo"
-                    src={FURBO_LOGO_DARK_SVG.src}
+                    src={FURBO_LOGO_DARK_SVG}
                     type="image/svg+xml"
                     loading="eager"
                 />

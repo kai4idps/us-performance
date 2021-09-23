@@ -27,7 +27,7 @@ const EmailInput = () => {
                     <IconButton className={classes.submitButton}>
                         <Image
                             className={classes.blackTriangle}
-                            src={BLACK_TRIANGLE.src}
+                            src={BLACK_TRIANGLE}
                             alt="email"
                             type="image/svg+xml"
                         />

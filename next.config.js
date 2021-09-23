@@ -4,6 +4,9 @@ module.exports = {
 	devtool: "source-map",
 	i18n,
   webpack5: true,
+  images: {
+        disableStaticImages: true
+  },
 	webpack: (config, options) => {
 		 config.module.rules.push({
       test: /\.(mov|mp4)$/,
@@ -16,41 +19,41 @@ module.exports = {
         }
       }
     });
-    //  config.module.rules.push({
-    //   test: /\.(png|jpe?g|gif)$/i,
-    //   use: [
-    //     // this will create image copy, that we will use,
-    //     // output path - '/.next/static/longhash.png'
-    //     // url - '/_next/static/longhash.png'
-    //     {
-    //       loader: 'url-loader',
-    //       options: {
-    //         outputPath: 'static/',
-    //         publicPath: '/_next/',
-    //         limit: 1000
-    //       }
-    //     },
-    //     {
-    //       loader: 'image-webpack-loader',
-    //       options: {
-    //         gifsicle: {
-    //           interlaced: false
-    //         },
-    //         optipng: {
-    //           optimizationLevel: 7
-    //         },
-    //         pngquant: {
-    //           quality: '65-90',
-    //           speed: 4
-    //         },
-    //         mozjpeg: {
-    //           progressive: true,
-    //           quality: 65
-    //         }
-    //       }
-    //     }
-    //   ]
-    // })
+     config.module.rules.push({
+      test: /\.(svg|png|jpe?g|gif|webp)$/i,
+      use: [
+        // this will create image copy, that we will use,
+        // output path - '/.next/static/longhash.png'
+        // url - '/_next/static/longhash.png'
+        {
+          loader: 'url-loader',
+          options: {
+            outputPath: 'static/image',
+            // publicPath: 'static/image',
+            limit: 10000
+          }
+        },
+        {
+          loader: 'image-webpack-loader',
+          options: {
+            gifsicle: {
+              interlaced: false
+            },
+            optipng: {
+              optimizationLevel: 7
+            },
+            pngquant: {
+              quality: [0.65, 0.90],
+              speed: 4
+            },
+            mozjpeg: {
+              progressive: true,
+              quality: 65
+            }
+          }
+        }
+      ]
+    })
 		// config.module.rules.push({
     //   test: /\.(webp)$/i,
     //     use: [
@@ -59,7 +62,6 @@ module.exports = {
     //         options: {
     //           limit: 8192,
     //           name: 'img/[name].[ext]',
-    //           outputPath: "static/"
     //         },
     //       },
     //       // 配置 image-webpack-loader (第一步)

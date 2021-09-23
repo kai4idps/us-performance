@@ -144,7 +144,7 @@ const headerRoutes = [
         icon: {
             mdUp: (
                 <Image
-                    src={NEW_ICON.src}
+                    src={NEW_ICON}
                     alt="new-icon"
                     type="image/svg+xml"
                     style={{
@@ -159,7 +159,7 @@ const headerRoutes = [
             ),
             smDown: (
                 <Image
-                    src={NEW_ICON.src}
+                    src={NEW_ICON}
                     alt="new-icon"
                     type="image/svg+xml"
                     style={{

@@ -94,7 +94,7 @@ const CloudRecording = () => {
                                 src={
                                     xsDown
                                         ? postContent.phoneView.src.xs
-                                        : postContent.src
+                                        : postContent
                                 }
                                 title={postContent.name}
                                 autoplay

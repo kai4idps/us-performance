@@ -75,7 +75,7 @@ const DialogFlag = ({ openDialog, handleCloseDialog }) => {
                                                 className={
                                                     classes.dialogContentListImage
                                                 }
-                                                src={list.image.src}
+                                                src={list.image}
                                                 alt={list.country}
                                                 type="image/svg+xml"
                                             />

@@ -29,8 +29,8 @@ const KeyVisual = () => {
         title: t('home.key_visual.title'),
         subtitle: t('home.key_visual.subtitle'),
         phoneView: {
-            src: HOME_PHONE_VIEW_WEBP.src,
-            fallback: HOME_PHONE_VIEW_PNG.src,
+            src: HOME_PHONE_VIEW_WEBP,
+            fallback: HOME_PHONE_VIEW_PNG,
             alt: t('home.key_visual.phone_view_alt'),
         },
         watchVideo: t('home.key_visual.watch_video'),
@@ -111,7 +111,7 @@ const KeyVisual = () => {
             <div className={classes.phoneContainer}>
                 <Image
                     className={classes.phone}
-                    src={postContent.phoneView.src}
+                    src={postContent.phoneView}
                     fallback={postContent.phoneView.fallback}
                     alt={postContent.phoneView.alt}
                 />

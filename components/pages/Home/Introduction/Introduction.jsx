@@ -37,16 +37,16 @@ const Intro = () => {
         introSlides: [
             {
                 alt: t('home.intro.intro_slides.0.alt'),
-                src: HOME_CORGI_BARKING_WEBP.src,
-                fallback: HOME_CORGI_BARKIN_JPG.src,
+                src: HOME_CORGI_BARKING_WEBP,
+                fallback: HOME_CORGI_BARKIN_JPG,
                 type: 'image',
                 title: t('home.intro.intro_slides.0.title'),
                 content: t('home.intro.intro_slides.0.content'),
             },
             {
                 alt: t('home.intro.intro_slides.1.alt'),
-                src: HOME_EMERGENCY_ALERT_WEBP.src,
-                fallback: HOME_EMERGENCY_ALERT_JPG.src,
+                src: HOME_EMERGENCY_ALERT_WEBP,
+                fallback: HOME_EMERGENCY_ALERT_JPG,
                 type: 'image',
                 title: t('home.intro.intro_slides.1.title'),
                 content: t('home.intro.intro_slides.1.content'),
@@ -69,7 +69,7 @@ const Intro = () => {
                     <Image
                         className={classes.path}
                         alt="cute-arrow"
-                        src={PATH_SHORT_SVG.src}
+                        src={PATH_SHORT_SVG}
                         type="image/svg+xml"
                     />
                 </Hidden>
@@ -77,7 +77,7 @@ const Intro = () => {
                     <Image
                         className={classes.path}
                         alt="cute-arrow"
-                        src={PATH_LONG_SVG.src}
+                        src={PATH_LONG_SVG}
                         type="image/svg+xml"
                     />
                 </Hidden>

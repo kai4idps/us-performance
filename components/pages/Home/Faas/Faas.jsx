@@ -32,24 +32,24 @@ const Faas = () => {
                 text: t(
                     'home.faas.services.low_upfront_cost.text',
                 ),
-                src: LOW_COST_ICON_SVG.src,
+                src: LOW_COST_ICON_SVG,
             },
             {
                 alt: t('home.faas.services.cancel_anytime.alt'),
                 text: t('home.faas.services.cancel_anytime.text'),
-                src: CANCEL_ICON_SVG.src,
+                src: CANCEL_ICON_SVG,
             },
             {
                 alt: t('home.faas.services.lifetime_warranty.alt'),
                 text: t(
                     'home.faas.services.lifetime_warranty.text',
                 ),
-                src: WARRANTY_ICON_SVG.src,
+                src: WARRANTY_ICON_SVG,
             },
             {
                 alt: t('home.faas.services.24hour_support.alt'),
                 text: t('home.faas.services.24hour_support.text'),
-                src: SUPPORT_ICON_SVG.src,
+                src: SUPPORT_ICON_SVG,
             },
         ],
         button: {
@@ -73,7 +73,7 @@ const Faas = () => {
                                 <Image
                                     className={classes.new}
                                     alt="new-icon"
-                                    src={NEW_ICON_SVG.src}
+                                    src={NEW_ICON_SVG}
                                     type="image/svg+xml"
                                 />
                             </div>

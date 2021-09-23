@@ -109,7 +109,7 @@ const AccountButton = (props) => {
             >
                 <Icon className={classes.icon}>
                     <Image
-                        src={ACCOUNT_ICON.src}
+                        src={ACCOUNT_ICON}
                         alt='ACCOUNT_ICON'
                         className={classes.image}
                         type="image/svg+xml"

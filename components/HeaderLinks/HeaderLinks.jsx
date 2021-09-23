@@ -141,7 +141,7 @@ export default function HeaderLinks(props) {
                                 content={
                                     <Button className={classes.button}>
                                         <Image
-                                            src={ACCOUNT_ICON.src}
+                                            src={ACCOUNT_ICON}
                                             alt={'ACCOUNT_ICON'}
                                             className={classes.image}
                                             type="image/svg+xml"
@@ -171,7 +171,7 @@ export default function HeaderLinks(props) {
                                     className={classes.flag}
                                     src={
                                         REGION_INFO[language.toUpperCase()]
-                                            ?.image.src
+                                            ?.image
                                     }
                                     alt={
                                         REGION_INFO[language.toUpperCase()]
