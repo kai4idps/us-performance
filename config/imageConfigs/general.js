@@ -5,7 +5,6 @@ import WARRANTY_ICON_SVG from '@/assets/images/general/services/warranty.svg';
 import CANCEL_ICON_SVG from '@/assets/images/general/services/cancel.svg';
 import SUPPORT_ICON_SVG from '@/assets/images/general/services/support.svg';
 import NEW_ICON_SVG from '@/assets/images/general/new.svg';
-
 //* Smart alert
 import SMART_ALERTS_SLIDE_DESKTOP_WEBP from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.webp';
 import SMART_ALERTS_SLIDE_DESKTOP_JPG from '@/assets/images/general/smart_alerts_slides/smart-alerts-desktop.jpg';
@@ -37,7 +36,15 @@ import BARKING_YELLOW_ICON_SVG from '@/assets/images/general/features/yellow/bar
 import SELFIE_YELLOW_ICON_SVG from '@/assets/images/general/features/yellow/selfie-yellow.svg';
 import HOME_EMERGENCY_RED_ICON_SVG from '@/assets/images/general/features/yellow/home-emergency-red.svg';
 import PERSON_YELLOW_ICON_SVG from '@/assets/images/general/features/yellow/person-yellow.svg';
-
+//* Features white
+import CLOUD_RECORDING_WHITE_ICON_SVG from '@/assets/images/general/features/white/cloud-recording-white.svg';
+import DOGGIE_DIARY_WHITE_ICON_SVG from '@/assets/images/general/features/white/doggie-diary-white.svg';
+import ACTIVITY_WHITE_ICON_SVG from '@/assets/images/general/features/white/activity-white.svg';
+import BARKING_WHITE_ICON_SVG from '@/assets/images/general/features/white/barking-white.svg';
+import SELFIE_WHITE_ICON_SVG from '@/assets/images/general/features/white/selfie-white.svg';
+import HOME_EMERGENCY_WHITE_ICON_SVG from '@/assets/images/general/features/white/home-emergency-white.svg';
+import PERSON_WHITE_ICON_SVG from '@/assets/images/general/features/white/person-white.svg';
+import SICK_WHITE_ICON_SVG from '@/assets/images/general/features/white/sick-white.svg';
 
 export {
     PATH_SHORT_SVG,
@@ -76,4 +83,12 @@ export {
     SMART_ALERTS_SLIDE_PERSON_DESKTOP_JPG,
     SMART_ALERTS_SLIDE_PERSON_MOBILE_WEBP,
     SMART_ALERTS_SLIDE_PERSON_MOBILE_JPG,
+    CLOUD_RECORDING_WHITE_ICON_SVG,
+    DOGGIE_DIARY_WHITE_ICON_SVG,
+    ACTIVITY_WHITE_ICON_SVG,
+    BARKING_WHITE_ICON_SVG,
+    SELFIE_WHITE_ICON_SVG,
+    HOME_EMERGENCY_WHITE_ICON_SVG,
+    PERSON_WHITE_ICON_SVG,
+    SICK_WHITE_ICON_SVG,
 }
