@@ -7,6 +7,9 @@ module.exports = {
   images: {
       disableStaticImages: true
   },
+  react: {
+    useSuspense: false,
+  },
 	webpack: (config, options) => {
 
     // config.resolve.alias = {
