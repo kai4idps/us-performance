@@ -9,13 +9,13 @@ module.exports = {
   },
 	webpack: (config, options) => {
 
-    config.resolve.alias = {
-			...config.resolve.alias,
-			react: "preact/compat",
-			"react-dom/test-utils": "preact/test-utils",
-			"react-dom": "preact/compat",
-			// "@material-ui/core": "@material-ui/core/esm"
-		};
+    // config.resolve.alias = {
+		// 	...config.resolve.alias,
+		// 	react: "preact/compat",
+		// 	"react-dom/test-utils": "preact/test-utils",
+		// 	"react-dom": "preact/compat",
+		// 	// "@material-ui/core": "@material-ui/core/esm"
+		// };
 		config.module.rules.push({
       test: /\.(mov|mp4)$/,
       use: {
