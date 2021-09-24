@@ -5,10 +5,18 @@ module.exports = {
 	i18n,
   webpack5: true,
   images: {
-        disableStaticImages: true
+      disableStaticImages: true
   },
 	webpack: (config, options) => {
-		 config.module.rules.push({
+
+    config.resolve.alias = {
+			...config.resolve.alias,
+			react: "preact/compat",
+			"react-dom/test-utils": "preact/test-utils",
+			"react-dom": "preact/compat",
+			// "@material-ui/core": "@material-ui/core/esm"
+		};
+		config.module.rules.push({
       test: /\.(mov|mp4)$/,
       use: {
         loader: "file-loader",
@@ -19,7 +27,7 @@ module.exports = {
         }
       }
     });
-     config.module.rules.push({
+    config.module.rules.push({
       test: /\.(svg|png|jpe?g|gif|webp)$/i,
       use: [
         // this will create image copy, that we will use,
@@ -29,7 +37,6 @@ module.exports = {
           loader: 'url-loader',
           options: {
             outputPath: 'static/image',
-            // publicPath: 'static/image',
             limit: 10000
           }
         },
