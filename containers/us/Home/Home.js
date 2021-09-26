@@ -10,21 +10,21 @@ import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
 const Home = () => {
   // React 18 suspense improve tti tbt ?
  
-  const DynamicLazyIntroComponent = dynamic(() => import(/* webpackChunkName: "Introduction" */'@/components/pages/Home/Introduction/Introduction'), {
-    suspense: true,
-  })
-  const DynamicLazyFaasComponent = dynamic(() => import(/* webpackChunkName: "Faas" */'@/components/pages/Home/Faas/Faas'), {
-    suspense: true,
-  })
-  const DynamicLazyHomeSmartAlertComponent = dynamic(() => import(/* webpackChunkName: "HomeSmartAlert" */'./HomeSmartAlert'), {
-    suspense: true,
-  })
-  const DynamicLazyCloudRecordingComponent = dynamic(() => import(/* webpackChunkName: "CloudRecording" */'@/components/pages/Home/CloudRecording'), {
-    suspense: true,
-  })
- const DynamicLazyDesignedForDogsComponent = dynamic(() => import(/* webpackChunkName: "DesignedForDogs" */'@/components/pages/Home/DesignedForDogs'), {
-    suspense: true,
-  })
+//   const DynamicLazyIntroComponent = dynamic(() => import(/* webpackChunkName: "Introduction" */'@/components/pages/Home/Introduction/Introduction'), {
+//     suspense: true,
+//   })
+//   const DynamicLazyFaasComponent = dynamic(() => import(/* webpackChunkName: "Faas" */'@/components/pages/Home/Faas/Faas'), {
+//     suspense: true,
+//   })
+//   const DynamicLazyHomeSmartAlertComponent = dynamic(() => import(/* webpackChunkName: "HomeSmartAlert" */'./HomeSmartAlert'), {
+//     suspense: true,
+//   })
+//   const DynamicLazyCloudRecordingComponent = dynamic(() => import(/* webpackChunkName: "CloudRecording" */'@/components/pages/Home/CloudRecording'), {
+//     suspense: true,
+//   })
+//  const DynamicLazyDesignedForDogsComponent = dynamic(() => import(/* webpackChunkName: "DesignedForDogs" */'@/components/pages/Home/DesignedForDogs'), {
+//     suspense: true,
+//   })
 
   return (
     <>
