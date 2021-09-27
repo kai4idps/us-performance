@@ -1,6 +1,9 @@
 const { i18n } = require("./next-i18next.config");
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+})
 
-module.exports = {
+module.exports = withBundleAnalyzer({
 	devtool: "source-map",
   productionBrowserSourceMaps: true,
 	i18n,
@@ -13,13 +16,14 @@ module.exports = {
   },
 	webpack: (config, options) => {
 
-    // config.resolve.alias = {
-		// 	...config.resolve.alias,
-		// 	react: "preact/compat",
-		// 	"react-dom/test-utils": "preact/test-utils",
-		// 	"react-dom": "preact/compat",
-		// 	// "@material-ui/core": "@material-ui/core/esm"
-		// };
+    config.resolve.alias = {
+			...config.resolve.alias,
+			// react: "preact/compat",
+			// "react-dom/test-utils": "preact/test-utils",
+			// "react-dom": "preact/compat",
+			"@material-ui/core": "@material-ui/core/esm",
+      // '@material-ui/icons': '@material-ui/icons/es'
+		};
 		config.module.rules.push({
       test: /\.(mov|mp4)$/,
       use: {
@@ -88,4 +92,4 @@ module.exports = {
 
 		return config;
 	}
-}
+})

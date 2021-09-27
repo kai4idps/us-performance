@@ -1,7 +1,7 @@
 import React from 'react';
-import Facebook from '@material-ui/icons/Facebook';
-import Instagram from '@material-ui/icons/Instagram';
-import YouTube from '@material-ui/icons/YouTube';
+// import Facebook from '@material-ui/icons/Facebook';
+// import Instagram from '@material-ui/icons/Instagram';
+// import YouTube from '@material-ui/icons/YouTube';
 // import FURBO_DOG_CAMERA_ICON from '@/assets/images/general/furbo-dog-camera-logo.png';
 // import FURBO_DOG_NANNY_ICON from '@/assets/images/general/furbo-dog-nanny-logo.png';
 // import Image from 'components/Image';
