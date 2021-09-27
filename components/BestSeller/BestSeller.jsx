@@ -10,7 +10,7 @@ import {
     BEST_SELLER_ICON_SVG,
     AMAZON_LOGO_PNG,
 } from '@/config/imageConfigs/general';
-import VisibleSensorAnimation from '@/components/VisibleSensorAnimation';
+import VisibleSensorAnimation from 'components/VisibleSensorAnimation';
 import styles from './bestSellerStyle.js';
 
 const useStyles = makeStyles(styles);
@@ -22,17 +22,17 @@ const BestSeller = () => {
 
     const postContent = {
         rating: {
-            alt: t('translation:home.best_seller.rating.alt'),
+            alt: t('home.best_seller.rating.alt'),
             src: FOUR_AND_HALF_STAR_ICON_SVG,
-            text: t('translation:home.best_seller.rating.text'),
+            text: t('home.best_seller.rating.text'),
         },
         bestSeller: {
             src: BEST_SELLER_ICON_SVG,
-            alt: t('translation:home.best_seller.best_seller.alt'),
+            alt: t('home.best_seller.best_seller.alt'),
         },
         amazon: {
             src: AMAZON_LOGO_PNG,
-            alt: t('translation:home.best_seller.amazon.alt'),
+            alt: t('home.best_seller.amazon.alt'),
         },
     };
 
