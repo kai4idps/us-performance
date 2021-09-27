@@ -27,6 +27,11 @@ import HOME_FURBO_CAM_WEBP from '@/assets/images/home/home-furbo-cam.webp';
 import HOME_FURBO_CAM_JPG from '@/assets/images/home/home-furbo-cam.jpg';
 import HOME_GENERIC_CAM_WEBP from '@/assets/images/home/home-generic-cam.webp';
 import HOME_GENERIC_CAM_JPG from '@/assets/images/home/home-generic-cam.jpg';
+//* Recommend
+import HOME_RECOMMEND_VET_WEBP from '@/assets/images/home/home-recommend-vet.webp';
+import HOME_RECOMMEND_VET_JPG from '@/assets/images/home/home-recommend-vet.jpg';
+import HOME_RECOMMEND_TRAINER_WEBP from '@/assets/images/home/home-recommend-trainer.webp';
+import HOME_RECOMMEND_TRAINER_JPG from '@/assets/images/home/home-recommend-trainer.jpg';
 
 export {
     HOME_PHONE_VIEW_WEBP,
@@ -53,4 +58,8 @@ export {
     HOME_ACTIVITY_ALERT_MP4,
     HOME_CLOUD_RECORDING_DESKTOP_MP4,
     HOME_CLOUD_RECORDING_MOBILE_MP4,
+    HOME_RECOMMEND_VET_WEBP,
+    HOME_RECOMMEND_VET_JPG,
+    HOME_RECOMMEND_TRAINER_WEBP,
+    HOME_RECOMMEND_TRAINER_JPG,
 }

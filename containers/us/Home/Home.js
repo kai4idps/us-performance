@@ -8,8 +8,6 @@ import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
 // import DesignedForDogs from '@/components/pages/Home/DesignedForDogs';
 
 const Home = () => {
-  // React 18 suspense improve tti tbt ?
- 
   const DynamicLazyIntroComponent = dynamic(() => import(/* webpackChunkName: "Introduction" */'@/components/pages/Home/Introduction/Introduction'), {
     suspense: true,
   })
@@ -22,7 +20,10 @@ const Home = () => {
   const DynamicLazyCloudRecordingComponent = dynamic(() => import(/* webpackChunkName: "CloudRecording" */'@/components/pages/Home/CloudRecording'), {
     suspense: true,
   })
- const DynamicLazyDesignedForDogsComponent = dynamic(() => import(/* webpackChunkName: "DesignedForDogs" */'@/components/pages/Home/DesignedForDogs'), {
+  const DynamicLazyDesignedForDogsComponent = dynamic(() => import(/* webpackChunkName: "DesignedForDogs" */'@/components/pages/Home/DesignedForDogs'), {
+    suspense: true,
+  })
+  const DynamicLazyRecommendComponent = dynamic(() => import(/* webpackChunkName: "Recommend" */'@/components/Recommend'), {
     suspense: true,
   })
 
@@ -43,6 +44,9 @@ const Home = () => {
       </Suspense>
       <Suspense fallback={`loading`}>
         <DynamicLazyDesignedForDogsComponent />
+      </Suspense>
+      <Suspense fallback={`loading`}>
+        <DynamicLazyRecommendComponent />
       </Suspense>
     </>
   )
