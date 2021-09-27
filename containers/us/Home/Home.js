@@ -7,7 +7,6 @@ import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
 // import CloudRecording from '@/components/pages/Home/CloudRecording';
 // import DesignedForDogs from '@/components/pages/Home/DesignedForDogs';
 
-const Home = () => {
   const DynamicLazyIntroComponent = dynamic(() => import(/* webpackChunkName: "Introduction" */'@/components/pages/Home/Introduction/Introduction'), {
     suspense: true,
   })
@@ -35,6 +34,12 @@ const Home = () => {
   const DynamicBestSellerComponent = dynamic(() => import(/* webpackChunkName: "BestSeller" */'@/components/BestSeller'), {
     suspense: true,
   })
+  const DynamicScrollToTopButtonComponent = dynamic(() => import(/* webpackChunkName: "ScrollToTopButton" */'@/components/ScrollToTopButton'), {
+    suspense: true,
+  })
+
+const Home = () => {
+  const positionToScroll = 5000;
 
   return (
     <>
@@ -65,6 +70,9 @@ const Home = () => {
       </Suspense>
       <Suspense fallback={`loading`}>
         <DynamicBestSellerComponent />
+      </Suspense>
+      <Suspense fallback={`loading`}>
+        <DynamicScrollToTopButtonComponent positionToScroll={positionToScroll} />
       </Suspense>
     </>
   )
