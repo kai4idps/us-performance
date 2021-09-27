@@ -26,6 +26,9 @@ const Home = () => {
   const DynamicLazyRecommendComponent = dynamic(() => import(/* webpackChunkName: "Recommend" */'@/components/Recommend'), {
     suspense: true,
   })
+  const DynamicSaveDogsLivesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/SaveDogsLives'), {
+    suspense: true,
+  })
 
   return (
     <>
@@ -47,6 +50,9 @@ const Home = () => {
       </Suspense>
       <Suspense fallback={`loading`}>
         <DynamicLazyRecommendComponent />
+      </Suspense>
+      <Suspense fallback={`loading`}>
+        <DynamicSaveDogsLivesComponent />
       </Suspense>
     </>
   )
