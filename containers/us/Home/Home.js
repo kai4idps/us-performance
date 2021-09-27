@@ -29,7 +29,10 @@ const Home = () => {
   const DynamicSaveDogsLivesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/SaveDogsLives'), {
     suspense: true,
   })
-  const DynamicPressQuotesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/PressQuotes'), {
+  const DynamicPressQuotesComponent = dynamic(() => import(/* webpackChunkName: "PressQuotes" */'@/components/pages/Home/PressQuotes'), {
+    suspense: true,
+  })
+  const DynamicBestSellerComponent = dynamic(() => import(/* webpackChunkName: "BestSeller" */'@/components/BestSeller'), {
     suspense: true,
   })
 
@@ -59,6 +62,9 @@ const Home = () => {
       </Suspense>
       <Suspense fallback={`loading`}>
         <DynamicPressQuotesComponent />
+      </Suspense>
+      <Suspense fallback={`loading`}>
+        <DynamicBestSellerComponent />
       </Suspense>
     </>
   )

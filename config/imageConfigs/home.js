@@ -32,6 +32,11 @@ import HOME_RECOMMEND_VET_WEBP from '@/assets/images/home/home-recommend-vet.web
 import HOME_RECOMMEND_VET_JPG from '@/assets/images/home/home-recommend-vet.jpg';
 import HOME_RECOMMEND_TRAINER_WEBP from '@/assets/images/home/home-recommend-trainer.webp';
 import HOME_RECOMMEND_TRAINER_JPG from '@/assets/images/home/home-recommend-trainer.jpg';
+//* Best seller
+import HOME_COLLIE_DESKTOP_WEBP from '@/assets/images/home/home-collie-desktop.webp';
+import HOME_COLLIE_DESKTOP_JPG from '@/assets/images/home/home-collie-desktop.jpg';
+import HOME_COLLIE_MOBILE_WEBP from '@/assets/images/home/home-collie-mobile.webp';
+import HOME_COLLIE_MOBILE_JPG from '@/assets/images/home/home-collie-mobile.jpg';
 
 export {
     HOME_PHONE_VIEW_WEBP,
@@ -62,4 +67,8 @@ export {
     HOME_RECOMMEND_VET_JPG,
     HOME_RECOMMEND_TRAINER_WEBP,
     HOME_RECOMMEND_TRAINER_JPG,
+    HOME_COLLIE_DESKTOP_WEBP,
+    HOME_COLLIE_DESKTOP_JPG,
+    HOME_COLLIE_MOBILE_WEBP,
+    HOME_COLLIE_MOBILE_JPG,
 }

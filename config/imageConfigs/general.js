@@ -46,6 +46,11 @@ import HOME_EMERGENCY_WHITE_ICON_SVG from '@/assets/images/general/features/whit
 import PERSON_WHITE_ICON_SVG from '@/assets/images/general/features/white/person-white.svg';
 import SICK_WHITE_ICON_SVG from '@/assets/images/general/features/white/sick-white.svg';
 
+//* Others
+import FOUR_AND_HALF_STAR_ICON_SVG from '@/assets/images/general/four-and-half-star.svg';
+import BEST_SELLER_ICON_SVG from '@/assets/images/general/best-seller.svg';
+import AMAZON_LOGO_PNG from '@/assets/images/general/amazon-logo.png';
+
 export {
     PATH_SHORT_SVG,
     PATH_LONG_SVG,
@@ -91,4 +96,7 @@ export {
     HOME_EMERGENCY_WHITE_ICON_SVG,
     PERSON_WHITE_ICON_SVG,
     SICK_WHITE_ICON_SVG,
+    FOUR_AND_HALF_STAR_ICON_SVG,
+    BEST_SELLER_ICON_SVG,
+    AMAZON_LOGO_PNG,
 }
