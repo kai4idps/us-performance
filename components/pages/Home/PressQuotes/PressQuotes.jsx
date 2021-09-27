@@ -179,7 +179,7 @@ const PressQuote = () => {
                         }
                     >
                         {slideList.map((item, index) => (
-                            <div className={classes.slide}>
+                            <div className={classes.slide} key={index}>
                                 <div className={classes.quoteContainer}>
                                     <Hidden smDown>
                                         <div
