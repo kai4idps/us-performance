@@ -29,6 +29,9 @@ const Home = () => {
   const DynamicSaveDogsLivesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/SaveDogsLives'), {
     suspense: true,
   })
+  const DynamicPressQuotesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/PressQuotes'), {
+    suspense: true,
+  })
 
   return (
     <>
@@ -53,6 +56,9 @@ const Home = () => {
       </Suspense>
       <Suspense fallback={`loading`}>
         <DynamicSaveDogsLivesComponent />
+      </Suspense>
+      <Suspense fallback={`loading`}>
+        <DynamicPressQuotesComponent />
       </Suspense>
     </>
   )
