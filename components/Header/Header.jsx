@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useLocation } from 'react-router-dom';
 import { useRouter } from 'next/router'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -14,7 +13,6 @@ import ShopButton from '@/components/ShopButton';
 import ShopIconButton from '@/components/ShopIconButton';
 import AccountButton from '@/components/AccountButton';
 import styles from './headerStyle';
-import { Router } from 'next/router';
 
 const useStyles = makeStyles(styles);
 
