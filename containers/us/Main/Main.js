@@ -1,5 +1,6 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import dynamic from 'next/dynamic';
 import PropTypes from 'prop-types'
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -12,7 +13,7 @@ import {
 } from '@/config/routes/routes_us';
 import { useRouter } from 'next/router'
 import Banner from '@/components/Banner';
-import Footer from '@/components/Footer/Footer';
+// import Footer from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
 import HomeButton from '@/components/HomeButton/HomeButton';
 import HeaderLinks from '@/components/HeaderLinks/HeaderLinks';
@@ -43,6 +44,11 @@ const Main = () => {
   const homeRootClasses = `${classes.root} ${classes.banner}`;
   const getContentBlock = routes.find((item)=> item.path === pathname);
 
+
+  const DynamicFooterComponent = dynamic(() => import(/* webpackChunkName: "Footer" */'@/components/Footer/Footer'), {
+    suspense: true,
+  })
+
   useEffect(() => {
         if (pathname === '/us') {
             setIsHomePage(true);
@@ -72,7 +78,9 @@ const Main = () => {
       <Container maxWidth="lg" style={{ padding: 0 }}>
         <ContentsBlock content={getContentBlock} />
       </Container>
-      <Footer termsLinks={termsLinks} socialLinks={socialLinks}/>
+       <Suspense fallback={`loading`}>
+        <DynamicFooterComponent termsLinks={termsLinks} socialLinks={socialLinks}/>
+      </Suspense>
     </div>
   )
 }
