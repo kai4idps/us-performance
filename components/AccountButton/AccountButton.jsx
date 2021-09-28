@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'next-i18next';
-import { useLocation, useHistory } from 'react-router-dom';
 import { useRouter } from 'next/router';
 import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
@@ -43,7 +42,6 @@ const AccountButton = (props) => {
     const { t } = useTranslation();
     const ref = useRef(null);
     const [isDropdown, setIsDropdown] = useState(false);
-    const history = useHistory();
     const location = useRouter();
     const accountId = readStorage(STORAGE_KEY.ACCOUNT_ID);
     const email = readStorage(STORAGE_KEY.EMAIL);
@@ -67,9 +65,9 @@ const AccountButton = (props) => {
 
     const handleClickHome = () => {
         handleToggleDropdown();
-        history.push({
+        location.push({
             pathname: PAGE_PATHS[PAGE_KEYS.ACCOUNT_INFO],
-            search: localSearchHandler(location.query),
+            query: localSearchHandler(location.query),
         });
     };
 

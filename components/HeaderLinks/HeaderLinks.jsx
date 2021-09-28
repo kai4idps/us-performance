@@ -91,7 +91,7 @@ export default function HeaderLinks(props) {
                                     <Link
                                         href={{
                                             pathname: item.path,
-                                            search: location.query,
+                                            query: location.query,
                                         }}
                                         passHref>
                                         <Button
@@ -215,7 +215,7 @@ export default function HeaderLinks(props) {
                                             <Link
                                                 href={{
                                                     pathname: item.path,
-                                                    search: location.query,
+                                                    query: location.query,
                                                 }}
                                                 passHref>
                                                 <Button

@@ -15,7 +15,6 @@ module.exports = withBundleAnalyzer({
     useSuspense: false,
   },
 	webpack: (config, options) => {
-
     config.resolve.alias = {
 			...config.resolve.alias,
 			// react: "preact/compat",

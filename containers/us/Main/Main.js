@@ -44,7 +44,6 @@ const Main = () => {
   const homeRootClasses = `${classes.root} ${classes.banner}`;
   const getContentBlock = routes.find((item)=> item.path === pathname);
 
-
   const DynamicFooterComponent = dynamic(() => import(/* webpackChunkName: "Footer" */'@/components/Footer/Footer'), {
     suspense: true,
   })
