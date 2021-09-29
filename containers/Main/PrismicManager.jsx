@@ -12,7 +12,7 @@ import {
 
 const PrismicManager = () => {
     const dispatch = useDispatch();
-    console.log('PrismicManager');
+    
     useEffect(() => {
         dispatch(fetchCampaignData());
         setTimeout(() => {

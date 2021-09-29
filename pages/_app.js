@@ -24,4 +24,8 @@ function MyApp({ Component, pageProps }) {
           </Provider>
 }
 
-export default appWithTranslation(MyApp)
+export default appWithTranslation(MyApp);
+
+export function reportWebVitals(metric) {
+  console.log('metric', metric)
+};
