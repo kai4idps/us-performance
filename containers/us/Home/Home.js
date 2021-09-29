@@ -1,7 +1,7 @@
 import React,{ Suspense } from 'react';
 import dynamic from 'next/dynamic';
-// import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
-import KeyVisual from '@/components/cms/KeyVisual';
+import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
+// import KeyVisual from '@/components/cms/KeyVisual';
 // import Intro from '@/components/pages/Home/Introduction/Introduction';
 // import Faas from '@/components/pages/Home/Faas/Faas';
 // import HomeSmartAlert from './HomeSmartAlert';
