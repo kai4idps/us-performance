@@ -1,6 +1,9 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/core/styles";
+import {
+    HOME_PHONE_VIEW_WEBP,
+} from '@/config/imageConfigs/home';
 
 export default class MyDocument extends Document {
 	render() {
@@ -11,6 +14,11 @@ export default class MyDocument extends Document {
 						href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
 						rel="stylesheet"
 					/>
+					  <link
+							rel="preload"
+							href={HOME_PHONE_VIEW_WEBP}
+							as="image"
+						/>
 				</Head>
 				<body>
 					<Main />
