@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import regionReducer from './features/region/regionSlice';
 import languageReducer from './features/region/languageSlice';
-// import prismicReducer from './features/prismic/prismicSlice';
+import prismicReducer from './features/prismic/prismicSlice';
 // import faasInfoReducer from './features/faasCheckout/faasInfoSlice';
 // import postsReducer from './features/posts/postsSlice';
 import articlesReducer from './features/articles/articlesSlice';
@@ -29,7 +29,7 @@ export default configureStore({
         // posts: postsReducer,
         region: regionReducer,
         language: languageReducer,
-        // prismic: prismicReducer,
+        prismic: prismicReducer,
         articles: articlesReducer,
         // shippingInfo: shippingInfoReducer,
         // paymentInfo: paymentInfoReducer,

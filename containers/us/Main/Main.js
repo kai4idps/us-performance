@@ -19,10 +19,10 @@ import HomeButton from '@/components/HomeButton/HomeButton';
 import HeaderLinks from '@/components/HeaderLinks/HeaderLinks';
 import ScrollToTop from '@/components/ScrollToTop';
 import FetchData from "@/containers/Main/FetchData";
+import PrismicManager from '@/containers/Main/PrismicManager';
 import styles from './mainStyle';
 
 const useStyles = makeStyles(styles);
-
 
 const ContentsBlock = (props) => {
   const { content } = props;
@@ -74,6 +74,7 @@ const Main = () => {
           setDrawerOpen={setDrawerOpen}
           fixed
       />
+      <PrismicManager />
       <Container maxWidth="lg" style={{ padding: 0 }}>
         <ContentsBlock content={getContentBlock} />
       </Container>
