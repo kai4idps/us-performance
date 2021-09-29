@@ -14,9 +14,14 @@ export default class MyDocument extends Document {
 						href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
 						rel="stylesheet"
 					/>
-					  <link
+					  {/* <link
 							rel="preload"
 							href={HOME_PHONE_VIEW_WEBP}
+							as="image"
+						/> */}
+					  <link
+							rel="preload"
+							href={'https://images.prismic.io/furbo-prismic/35b96df6-ffc6-4999-8087-d7a51c285c19_homepage-kv-mobile.jpg?auto=compress,format&rect=0,20,345,460&w=375&h=500'}
 							as="image"
 						/>
 				</Head>
