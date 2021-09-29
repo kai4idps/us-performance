@@ -14,7 +14,7 @@ import {
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useTranslation } from 'next-i18next';
-import VisibleSensorAnimation from 'components/VisibleSensorAnimation';
+import VisibleSensorAnimation from '@/components/VisibleSensorAnimation';
 import styles from './faasStyle';
 
 const useStyles = makeStyles(styles);

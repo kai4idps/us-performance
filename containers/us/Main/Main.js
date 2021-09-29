@@ -1,6 +1,7 @@
 import React, { useState, useEffect, Suspense } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import dynamic from 'next/dynamic';
+import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types'
 import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -39,6 +40,7 @@ ContentsBlock.propTypes = {
 const Main = () => {
   const classes = useStyles();
   const { pathname } = useRouter();
+  const dispatch = useDispatch();
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [isHomePage, setIsHomePage] = useState(true);
   const homeRootClasses = `${classes.root} ${classes.banner}`;
@@ -74,7 +76,7 @@ const Main = () => {
           setDrawerOpen={setDrawerOpen}
           fixed
       />
-      <PrismicManager />
+      <PrismicManager dispatch={dispatch}/>
       <Container maxWidth="lg" style={{ padding: 0 }}>
         <ContentsBlock content={getContentBlock} />
       </Container>

@@ -15,19 +15,17 @@ const FooterButton = (props) => {
     return (
         <div className={classes.linkButtonContainer}>
             <Link
-                href={info?.href || info?.path}
+                href={
+                    info.href
+                        ? info.href
+                        : {
+                            pathname: `/ca${info.path}`,
+                            query: router.pathname,
+                        }
+                }
                 passHref>
                 <Button
                     className={classes.linkButton}
-                    href={info?.href || info?.path || '#'}
-                    to={
-                        info.href
-                            ? null
-                            : {
-                                pathname: `/ca${info.path}`,
-                                search: router.pathname,
-                            }
-                    }
                 >
                      {info.title}
                 </Button>

@@ -1,4 +1,4 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 export const BREAKPOINTS = {
     XS: 'xs',
@@ -11,7 +11,7 @@ export const BREAKPOINTS = {
     DESKTOP: 'desktop',
 };
 
-export const theme = createMuiTheme({
+export const theme = createTheme({
     breakpoints: {
         values: {
             xs: 0,

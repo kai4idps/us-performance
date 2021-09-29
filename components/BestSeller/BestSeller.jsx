@@ -10,7 +10,7 @@ import {
     BEST_SELLER_ICON_SVG,
     AMAZON_LOGO_PNG,
 } from '@/config/imageConfigs/general';
-import VisibleSensorAnimation from 'components/VisibleSensorAnimation';
+import VisibleSensorAnimation from '@/components/VisibleSensorAnimation';
 import styles from './bestSellerStyle.js';
 
 const useStyles = makeStyles(styles);
