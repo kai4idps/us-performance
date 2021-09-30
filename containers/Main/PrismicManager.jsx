@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import {
     fetchCampaignData,
+    fetchLcpImageData,
     // fetchHomepageData,
     // fetchProductPageData,
     // fetchFdnPageData,
@@ -12,6 +13,7 @@ import {
 const PrismicManager = ({dispatch}) => {
     useEffect(() => {
         dispatch(fetchCampaignData());
+        dispatch(fetchLcpImageData());
         // setTimeout(() => {
         //     dispatch(fetchHomepageData());
         //     dispatch(fetchProductPageData());
