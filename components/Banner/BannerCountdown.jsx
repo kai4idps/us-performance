@@ -11,7 +11,8 @@ const useStyles = makeStyles(styles);
 
 const BannerCountdown = () => {
     const classes = useStyles();
-    const campaign = useSelector((state) => state.prismic.campaign);
+    const campaign = useSelector((state) => state.prismic.lcpImage);
+    // const campaign = useSelector((state) => state.prismic.campaign);
     const [timeLeft, setTimeLeft] = useState({});
 
     const calculateTimeLeft = () => {

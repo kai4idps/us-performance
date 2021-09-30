@@ -12,7 +12,7 @@ import {
 
 const PrismicManager = ({dispatch}) => {
     useEffect(() => {
-        dispatch(fetchCampaignData());
+        // dispatch(fetchCampaignData());
         dispatch(fetchLcpImageData());
         // setTimeout(() => {
         //     dispatch(fetchHomepageData());
