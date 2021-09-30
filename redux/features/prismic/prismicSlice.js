@@ -5,6 +5,7 @@ import { axiosGet } from '@/utils/helpers';
 
 const initialState = {
     campaign: null,
+    lcpImage: null,
     homepage: null,
     productPage: null,
     fdnPage: null,
@@ -13,7 +14,7 @@ const initialState = {
     dfdPage: null,
     status: {
         campaign: 'idle',
-        lcpimage: 'idle',
+        lcpImage: 'idle',
         homepage: 'idle',
         productPage: 'idle',
         fdnPage: 'idle',
@@ -23,7 +24,7 @@ const initialState = {
     },
     error: {
         campaign: null,
-        lcpimage: null,
+        lcpImage: null,
         homepage: null,
         productPage: null,
         fdnPage: null,
@@ -52,14 +53,13 @@ export const fetchCampaignData = createAsyncThunk(
 );
 
 export const fetchLcpImageData = createAsyncThunk(
-    'prismic/fetchCampaignData',
+    'prismic/fetchLcpImageData',
     async () => {
-        const response = await axiosGet(LCP_IMAGE_API, { headers: {
+        const data = await axiosGet(LCP_IMAGE_API, { headers: {
                 'Accept-Content': '*',
                 'Content-Type': 'application/json',
             }, });
-        console.log('fetchLcpImageData', response);
-        return '';
+        return data.data;
     },
 );
 
@@ -190,7 +190,6 @@ const prismicSlice = createSlice({
         },
         [fetchCampaignData.fulfilled]: (state, action) => {
             state.campaign = action.payload;
-            console.log(' action.payload',  action.payload);
             state.status.campaign = 'succeeded';
         },
         [fetchCampaignData.rejected]: (state, action) => {
@@ -198,15 +197,15 @@ const prismicSlice = createSlice({
             state.error.campaign = action.payload;
         },
         [fetchLcpImageData.pending]: (state, action) => {
-            state.status.lcpimage = 'loading';
+            state.status.lcpImage = 'loading';
         },
         [fetchLcpImageData.fulfilled]: (state, action) => {
-            state.lcpimage = action.payload;
-            state.status.lcpimage = 'succeeded';
+            state.lcpImage = action.payload;
+            state.status.lcpImage = 'succeeded';
         },
         [fetchLcpImageData.rejected]: (state, action) => {
-            state.status.lcpimage = 'failed';
-            state.error.lcpimage = action.payload;
+            state.status.lcpImage = 'failed';
+            state.error.lcpImage = action.payload;
         },
         [fetchHomepageData.pending]: (state, action) => {
             state.status.homepage = 'loading';

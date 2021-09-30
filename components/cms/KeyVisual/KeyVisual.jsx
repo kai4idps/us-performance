@@ -41,6 +41,7 @@ const KeyVisual = () => {
     const theme = useTheme();
     const smDown = useMediaQuery(theme.breakpoints.down('sm'));
     const campaign = useSelector((state) => state.prismic.campaign);
+    const lcpImage = useSelector((state) => state.prismic.lcpImage);
 
     if (isEmpty(campaign)) {
         return <div className={classes.root} />;
@@ -50,9 +51,12 @@ const KeyVisual = () => {
         <div
             className={classes.root}
             style={{
+                // backgroundImage: smDown
+                //     ? `url(${campaign.key_visual_image_mobile.url})`
+                //     : `url(${campaign.key_visual_image_desktop.url})`,
                 backgroundImage: smDown
-                    ? `url(${campaign.key_visual_image_mobile.url})`
-                    : `url(${campaign.key_visual_image_desktop.url})`,
+                    ? `url(${lcpImage.key_visual_image_mobile.url})`
+                    : `url(${lcpImage.key_visual_image_desktop.url})`,
             }}
         >
             <Grid container>
