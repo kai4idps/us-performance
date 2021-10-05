@@ -1,16 +1,20 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
+import React from "react";
 import Main from "containers/us/Main";
-import { useRouter } from 'next/router';
-import MetaManager from '@/containers/Main/MetaManager';
-import {
-    routes,
-} from '@/config/routes/routes_us';
+import { useRouter } from "next/router";
+import MetaManager from "@/containers/Main/MetaManager";
+import { routes } from "@/config/routes/routes_us";
 import nextI18NextConfig from "../../next-i18next.config";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useDispatch } from "react-redux";
+// import { fetchLcpImageData } from "@/redux/features/prismic";
+import { fetchLcpImageData } from "../../redux/features/prismic/prismicSlice";
+// import { getPrismicData } from "../api/prismic";
 
 export default function Home() {
   const pathname = useRouter().pathname;
+  const dispatch = useDispatch();
+  dispatch(fetchLcpImageData());
 
   return (
     <>
@@ -24,13 +28,15 @@ export default function Home() {
       </img> */}
       <Main />
     </>
-  )
+  );
 }
 
 export const getServerSideProps = async ({ locale }) => {
-	return {
-		props: {
-			...(await serverSideTranslations(locale, ["common"], nextI18NextConfig))
-		}
-	};
+  // const jsonData = await getData();
+
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"], nextI18NextConfig)),
+    },
+  };
 };
