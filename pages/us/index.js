@@ -15,7 +15,6 @@ import { fetchLcpImageData } from "../../redux/features/prismic/prismicSlice";
 
 export default function Home() {
   const pathname = useRouter().pathname;
-  // store.dispatch(fetchLcpImageData());
 
   return (
     <>

@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { client } from "config/prismic";
 import { LCP_IMAGE_API } from "@/config/common";
+import { client } from "@/config/prismic";
 import { axiosGet } from "@/utils/helpers";
 import { HYDRATE } from "next-redux-wrapper";
 
@@ -56,11 +56,21 @@ export const fetchCampaignData = createAsyncThunk(
 export const fetchLcpImageData = createAsyncThunk(
   "prismic/fetchLcpImageData",
   async () => {
-    const data = await axiosGet(LCP_IMAGE_API, {
-      headers: {
-        "Accept-Content": "*",
-        "Content-Type": "application/json",
-      },
+    // const data = await axiosGet(LCP_IMAGE_API, {
+    //   headers: {
+    //     "Accept-Content": "*",
+    //     "Content-Type": "application/json",
+    //   },
+    // });
+    const data = await client.getSingle("campaign", {
+      lang: "en-CA",
+      fetchLinks: [
+        "shop_button.shop_button_text",
+        "shop_button.center",
+        "video_button.watch_video_text",
+        "video_button.center",
+        "video_button.video_link",
+      ],
     });
     return data.data;
   },
