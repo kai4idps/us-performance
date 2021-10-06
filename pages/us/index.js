@@ -6,15 +6,16 @@ import MetaManager from "@/containers/Main/MetaManager";
 import { routes } from "@/config/routes/routes_us";
 import nextI18NextConfig from "../../next-i18next.config";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useDispatch } from "react-redux";
-// import { fetchLcpImageData } from "@/redux/features/prismic";
+// import store from "@/redux/configureStore";
+import { wrapper } from "@/redux/configureStore";
+
+// import { axiosGet } from "@/utils/helpers";
+// import { LCP_IMAGE_API } from "@/config/common";
 import { fetchLcpImageData } from "../../redux/features/prismic/prismicSlice";
-// import { getPrismicData } from "../api/prismic";
 
 export default function Home() {
   const pathname = useRouter().pathname;
-  const dispatch = useDispatch();
-  dispatch(fetchLcpImageData());
+  // store.dispatch(fetchLcpImageData());
 
   return (
     <>
@@ -31,12 +32,19 @@ export default function Home() {
   );
 }
 
-export const getServerSideProps = async ({ locale }) => {
-  // const jsonData = await getData();
+export const getServerSideProps = wrapper.getServerSideProps(
+  (store) =>
+    async ({ locale }) => {
+      await store.dispatch(fetchLcpImageData());
 
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ["common"], nextI18NextConfig)),
+      return {
+        props: {
+          ...(await serverSideTranslations(
+            locale,
+            ["common"],
+            nextI18NextConfig,
+          )),
+        },
+      };
     },
-  };
-};
+);

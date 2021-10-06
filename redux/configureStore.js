@@ -1,10 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit';
-import regionReducer from './features/region/regionSlice';
-import languageReducer from './features/region/languageSlice';
-import prismicReducer from './features/prismic/prismicSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import { createWrapper } from "next-redux-wrapper";
+import regionReducer from "./features/region/regionSlice";
+import languageReducer from "./features/region/languageSlice";
+import prismicReducer from "./features/prismic/prismicSlice";
 // import faasInfoReducer from './features/faasCheckout/faasInfoSlice';
 // import postsReducer from './features/posts/postsSlice';
-import articlesReducer from './features/articles/articlesSlice';
+import articlesReducer from "./features/articles/articlesSlice";
 // import shippingInfoReducer from './features/faasCheckout/shippingInfoSlice';
 // import paymentInfoReducer from './features/faasCheckout/paymentInfoSlice';
 // import taxInfoReducer from './features/faasCheckout/taxInfoSlice';
@@ -23,30 +24,33 @@ import articlesReducer from './features/articles/articlesSlice';
 
 const preloadState = {};
 
-export default configureStore({
+const makeStore = () =>
+  configureStore({
     reducer: {
-        // faasInfo: faasInfoReducer,
-        // posts: postsReducer,
-        region: regionReducer,
-        language: languageReducer,
-        prismic: prismicReducer,
-        articles: articlesReducer,
-        // shippingInfo: shippingInfoReducer,
-        // paymentInfo: paymentInfoReducer,
-        // taxInfo: taxInfoReducer,
-        // productInfo: ProductInfoReducer,
-        // order: orderReducer,
-        // account: AccountReducer,
-        // loader: LoaderReducer,
-        // device: DeviceReducer,
-        // license: LicenseReducer,
-        // webConsolePayment: webConsolePaymentInfoReducer,
-        // webConsoleTaxInfo: webConsoleTaxInfoReducer,
-        // accountVerification: accountVerificationReducer,
-        // manageSubscription: manageSubscriptionSliceReducer,
-        // modal: modalReducer,
-        // card: cardReducer,
+      // faasInfo: faasInfoReducer,
+      // posts: postsReducer,
+      region: regionReducer,
+      language: languageReducer,
+      prismic: prismicReducer,
+      articles: articlesReducer,
+      // shippingInfo: shippingInfoReducer,
+      // paymentInfo: paymentInfoReducer,
+      // taxInfo: taxInfoReducer,
+      // productInfo: ProductInfoReducer,
+      // order: orderReducer,
+      // account: AccountReducer,
+      // loader: LoaderReducer,
+      // device: DeviceReducer,
+      // license: LicenseReducer,
+      // webConsolePayment: webConsolePaymentInfoReducer,
+      // webConsoleTaxInfo: webConsoleTaxInfoReducer,
+      // accountVerification: accountVerificationReducer,
+      // manageSubscription: manageSubscriptionSliceReducer,
+      // modal: modalReducer,
+      // card: cardReducer,
     },
-    devTools: process.env.NODE_ENV !== 'production',
+    devTools: process.env.NODE_ENV !== "production",
     preloadState,
-});
+  });
+
+export const wrapper = createWrapper(makeStore);
