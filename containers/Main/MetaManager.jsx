@@ -38,7 +38,7 @@ const MetaManager = (props) => {
       />
       <meta
         name="google-site-verification"
-        content="uLgcQNBG8POEjgIJQ5PrcOUOnUCLHkWt4l2j_mafdlw"
+        content="0rWi94NO-MMVMWVrj02z3cfoON21FOU1P3g8yAxczfU"
       />
     </Head>
   );
