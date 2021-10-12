@@ -200,7 +200,7 @@ const prismicSlice = createSlice({
   extraReducers: {
     [HYDRATE]: (state, action) => {
       return {
-        ...state,
+        ...state.prismic,
         ...action.payload.prismic,
       };
     },
