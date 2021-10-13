@@ -1,7 +1,7 @@
-import React,{ Suspense } from 'react';
-import dynamic from 'next/dynamic';
-// import KeyVisual from '@/components/pages/Home/KeyVisual/KeyVisual';
-import KeyVisual from '@/components/cms/KeyVisual';
+import React, { Suspense } from "react";
+import dynamic from "next/dynamic";
+import KeyVisual from "@/components/pages/Home/KeyVisual/KeyVisual";
+// import KeyVisual from '@/components/cms/KeyVisual';
 // import Intro from '@/components/pages/Home/Introduction/Introduction';
 // import Faas from '@/components/pages/Home/Faas/Faas';
 // import HomeSmartAlert from './HomeSmartAlert';
@@ -16,36 +16,88 @@ import KeyVisual from '@/components/cms/KeyVisual';
 const Home = () => {
   const positionToScroll = 5000;
 
-  const DynamicLazyIntroComponent = dynamic(() => import(/* webpackChunkName: "Introduction" */'@/components/pages/Home/Introduction/Introduction'), {
-    suspense: true,
-  })
-  const DynamicLazyFaasComponent = dynamic(() => import(/* webpackChunkName: "Faas" */'@/components/pages/Home/Faas/Faas'), {
-    suspense: true,
-  })
-  const DynamicLazyHomeSmartAlertComponent = dynamic(() => import(/* webpackChunkName: "HomeSmartAlert" */'./HomeSmartAlert'), {
-    suspense: true,
-  })
-  const DynamicLazyCloudRecordingComponent = dynamic(() => import(/* webpackChunkName: "CloudRecording" */'@/components/pages/Home/CloudRecording'), {
-    suspense: true,
-  })
-  const DynamicLazyDesignedForDogsComponent = dynamic(() => import(/* webpackChunkName: "DesignedForDogs" */'@/components/pages/Home/DesignedForDogs'), {
-    suspense: true,
-  })
-  const DynamicLazyRecommendComponent = dynamic(() => import(/* webpackChunkName: "Recommend" */'@/components/Recommend'), {
-    suspense: true,
-  })
-  const DynamicSaveDogsLivesComponent = dynamic(() => import(/* webpackChunkName: "SaveDogsLives" */'@/components/pages/Home/SaveDogsLives'), {
-    suspense: true,
-  })
-  const DynamicPressQuotesComponent = dynamic(() => import(/* webpackChunkName: "PressQuotes" */'@/components/pages/Home/PressQuotes'), {
-    suspense: true,
-  })
-  const DynamicBestSellerComponent = dynamic(() => import(/* webpackChunkName: "BestSeller" */'@/components/BestSeller'), {
-    suspense: true,
-  })
-  const DynamicScrollToTopButtonComponent = dynamic(() => import(/* webpackChunkName: "ScrollToTopButton" */'@/components/ScrollToTopButton'), {
-    suspense: true,
-  })
+  const DynamicLazyIntroComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "Introduction" */ "@/components/pages/Home/Introduction/Introduction"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicLazyFaasComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "Faas" */ "@/components/pages/Home/Faas/Faas"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicLazyHomeSmartAlertComponent = dynamic(
+    () => import(/* webpackChunkName: "HomeSmartAlert" */ "./HomeSmartAlert"),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicLazyCloudRecordingComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "CloudRecording" */ "@/components/pages/Home/CloudRecording"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicLazyDesignedForDogsComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "DesignedForDogs" */ "@/components/pages/Home/DesignedForDogs"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicLazyRecommendComponent = dynamic(
+    () => import(/* webpackChunkName: "Recommend" */ "@/components/Recommend"),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicSaveDogsLivesComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "SaveDogsLives" */ "@/components/pages/Home/SaveDogsLives"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicPressQuotesComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "PressQuotes" */ "@/components/pages/Home/PressQuotes"
+      ),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicBestSellerComponent = dynamic(
+    () =>
+      import(/* webpackChunkName: "BestSeller" */ "@/components/BestSeller"),
+    {
+      suspense: true,
+    },
+  );
+  const DynamicScrollToTopButtonComponent = dynamic(
+    () =>
+      import(
+        /* webpackChunkName: "ScrollToTopButton" */ "@/components/ScrollToTopButton"
+      ),
+    {
+      suspense: true,
+    },
+  );
 
   return (
     <>
@@ -78,7 +130,9 @@ const Home = () => {
         <DynamicBestSellerComponent />
       </Suspense>
       <Suspense fallback={`loading`}>
-        <DynamicScrollToTopButtonComponent positionToScroll={positionToScroll} />
+        <DynamicScrollToTopButtonComponent
+          positionToScroll={positionToScroll}
+        />
       </Suspense>
 
       {/* <Intro/>
@@ -92,7 +146,7 @@ const Home = () => {
       <BestSeller/>
       <ScrollToTopButton positionToScroll={positionToScroll}/> */}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
